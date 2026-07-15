@@ -1,0 +1,2510 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-14T05:58:44.615Z",
+  "points": {
+    "102473000010": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:57:34.577Z"
+    },
+    "102473000028": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:57:45.868Z"
+    },
+    "102473000044": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:57:57.636Z"
+    },
+    "102473000052": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:09.392Z"
+    },
+    "102473000069": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:21.103Z"
+    },
+    "102473000077": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.289Z"
+    },
+    "102473000085": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.325Z"
+    },
+    "102473000093": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.357Z"
+    },
+    "102473000108": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.388Z"
+    },
+    "102473000116": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.420Z"
+    },
+    "102473000149": {
+      "lat": 35.042,
+      "lng": 118.407,
+      "address": "经开区（区县中心近似，非门牌）",
+      "name_matched": "经开区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.452Z"
+    },
+    "102473000270": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.484Z"
+    },
+    "102473000358": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.515Z"
+    },
+    "103372001758": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.547Z"
+    },
+    "103473001015": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.578Z"
+    },
+    "103473086000": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.610Z"
+    },
+    "103473086106": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.642Z"
+    },
+    "103473086405": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.674Z"
+    },
+    "103473086413": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.706Z"
+    },
+    "103473086421": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.737Z"
+    },
+    "103473086430": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.769Z"
+    },
+    "103473086456": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.816Z"
+    },
+    "103473086464": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.847Z"
+    },
+    "103473086510": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.878Z"
+    },
+    "103473086616": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.910Z"
+    },
+    "103473086624": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.941Z"
+    },
+    "103473086632": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:34.973Z"
+    },
+    "103473086649": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.004Z"
+    },
+    "103473086657": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.035Z"
+    },
+    "103473086665": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.067Z"
+    },
+    "103473086673": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.099Z"
+    },
+    "103473086681": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.131Z"
+    },
+    "103473086690": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.163Z"
+    },
+    "103473086712": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.195Z"
+    },
+    "103473086729": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.227Z"
+    },
+    "103473086815": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.259Z"
+    },
+    "103473086823": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.290Z"
+    },
+    "103473086831": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.321Z"
+    },
+    "103473086840": {
+      "lat": 35.042,
+      "lng": 118.407,
+      "address": "经开区（区县中心近似，非门牌）",
+      "name_matched": "经开区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.352Z"
+    },
+    "103473086858": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.398Z"
+    },
+    "103473086866": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.430Z"
+    },
+    "103473086874": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.462Z"
+    },
+    "103473086899": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.494Z"
+    },
+    "103473086911": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.525Z"
+    },
+    "103473086920": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.556Z"
+    },
+    "103473086938": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.587Z"
+    },
+    "103473086946": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.619Z"
+    },
+    "103473086962": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.650Z"
+    },
+    "103473086995": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.682Z"
+    },
+    "103473087019": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.735Z"
+    },
+    "103473087117": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.795Z"
+    },
+    "103473087125": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.843Z"
+    },
+    "103473087133": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.888Z"
+    },
+    "103473087141": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.933Z"
+    },
+    "103473087150": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.965Z"
+    },
+    "103473087168": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:35.997Z"
+    },
+    "103473087176": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.029Z"
+    },
+    "103473087192": {
+      "lat": 35.078,
+      "lng": 118.287,
+      "address": "高新区（区县中心近似，非门牌）",
+      "name_matched": "高新区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.075Z"
+    },
+    "103473087310": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.107Z"
+    },
+    "103473087328": {
+      "lat": 35.042,
+      "lng": 118.407,
+      "address": "经开区（区县中心近似，非门牌）",
+      "name_matched": "经开区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.138Z"
+    },
+    "103473087336": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.184Z"
+    },
+    "103473087344": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.215Z"
+    },
+    "103473087377": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.247Z"
+    },
+    "103473087393": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.279Z"
+    },
+    "103473087416": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.310Z"
+    },
+    "103473087424": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.342Z"
+    },
+    "103473087449": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.374Z"
+    },
+    "103473588369": {
+      "lat": 35.12,
+      "lng": 119.32,
+      "address": "临港区（区县中心近似，非门牌）",
+      "name_matched": "临港区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.405Z"
+    },
+    "104473000019": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.437Z"
+    },
+    "104473000027": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.469Z"
+    },
+    "104473000035": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.501Z"
+    },
+    "104473000043": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.531Z"
+    },
+    "104473000051": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.563Z"
+    },
+    "104473000060": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.594Z"
+    },
+    "104473000078": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.625Z"
+    },
+    "104473000086": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.657Z"
+    },
+    "104473000094": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.689Z"
+    },
+    "104473000109": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.721Z"
+    },
+    "104473000117": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.753Z"
+    },
+    "104473000125": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.785Z"
+    },
+    "104473000133": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.816Z"
+    },
+    "104473000141": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.848Z"
+    },
+    "104473000184": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.880Z"
+    },
+    "104473000192": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.912Z"
+    },
+    "104473000221": {
+      "lat": 35.078,
+      "lng": 118.287,
+      "address": "高新区（区县中心近似，非门牌）",
+      "name_matched": "高新区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.944Z"
+    },
+    "104473000537": {
+      "lat": 35.042,
+      "lng": 118.407,
+      "address": "经开区（区县中心近似，非门牌）",
+      "name_matched": "经开区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:36.976Z"
+    },
+    "105372003916": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.008Z"
+    },
+    "105473000017": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.040Z"
+    },
+    "105473000025": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.072Z"
+    },
+    "105473000033": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.104Z"
+    },
+    "105473000041": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.135Z"
+    },
+    "105473000050": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.167Z"
+    },
+    "105473000068": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.199Z"
+    },
+    "105473000076": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.230Z"
+    },
+    "105473000084": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.262Z"
+    },
+    "105473000092": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.294Z"
+    },
+    "105473000105": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.326Z"
+    },
+    "105473000113": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.357Z"
+    },
+    "105473000121": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.389Z"
+    },
+    "105473000130": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.420Z"
+    },
+    "105473000148": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.452Z"
+    },
+    "105473000156": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.498Z"
+    },
+    "105473000210": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.530Z"
+    },
+    "105473000228": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.562Z"
+    },
+    "105473000277": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.594Z"
+    },
+    "105473000285": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.626Z"
+    },
+    "105473000308": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.672Z"
+    },
+    "105473000316": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.704Z"
+    },
+    "105473000324": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.735Z"
+    },
+    "105473000332": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.766Z"
+    },
+    "105473000349": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.798Z"
+    },
+    "105473000357": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.829Z"
+    },
+    "105473000365": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.861Z"
+    },
+    "105473000373": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.892Z"
+    },
+    "105473000404": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.924Z"
+    },
+    "105473000515": {
+      "lat": 35.078,
+      "lng": 118.287,
+      "address": "高新区（区县中心近似，非门牌）",
+      "name_matched": "高新区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.956Z"
+    },
+    "105473000523": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:37.987Z"
+    },
+    "105473000531": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.019Z"
+    },
+    "105473000540": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.050Z"
+    },
+    "105473000582": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.081Z"
+    },
+    "105473000599": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.112Z"
+    },
+    "105473000603": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.144Z"
+    },
+    "105473000611": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.176Z"
+    },
+    "105473000620": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.207Z"
+    },
+    "105473000638": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.238Z"
+    },
+    "105473510510": {
+      "lat": 35.12,
+      "lng": 119.32,
+      "address": "临港区（区县中心近似，非门牌）",
+      "name_matched": "临港区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.270Z"
+    },
+    "203473000021": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.302Z"
+    },
+    "301473000011": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.348Z"
+    },
+    "301473000020": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.380Z"
+    },
+    "301473000038": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.411Z"
+    },
+    "302473000016": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.443Z"
+    },
+    "302473000024": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.475Z"
+    },
+    "302473000032": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.506Z"
+    },
+    "302473000049": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.538Z"
+    },
+    "303473000018": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.570Z"
+    },
+    "303473000026": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.616Z"
+    },
+    "304473000022": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.648Z"
+    },
+    "304473011211": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.680Z"
+    },
+    "304473024303": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.712Z"
+    },
+    "304473524313": {
+      "lat": 35.175,
+      "lng": 118.835,
+      "address": "莒南县（区县中心近似，非门牌）",
+      "name_matched": "莒南县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.759Z"
+    },
+    "305473000028": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.805Z"
+    },
+    "305473000036": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.837Z"
+    },
+    "305473000044": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.869Z"
+    },
+    "305473000085": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.900Z"
+    },
+    "305473016119": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.932Z"
+    },
+    "305473079015": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.964Z"
+    },
+    "305473079103": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:38.996Z"
+    },
+    "305473579093": {
+      "lat": 35.175,
+      "lng": 118.835,
+      "address": "莒南县（区县中心近似，非门牌）",
+      "name_matched": "莒南县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.042Z"
+    },
+    "305473779113": {
+      "lat": 35.787,
+      "lng": 118.628,
+      "address": "沂水县（区县中心近似，非门牌）",
+      "name_matched": "沂水县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.074Z"
+    },
+    "305474279063": {
+      "lat": 35.266,
+      "lng": 117.977,
+      "address": "费县（区县中心近似，非门牌）",
+      "name_matched": "费县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.106Z"
+    },
+    "305474479051": {
+      "lat": 34.917,
+      "lng": 118.648,
+      "address": "临沭县（区县中心近似，非门牌）",
+      "name_matched": "临沭县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.137Z"
+    },
+    "306473000012": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.169Z"
+    },
+    "306473000029": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.200Z"
+    },
+    "307473000019": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.233Z"
+    },
+    "308473028012": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.263Z"
+    },
+    "308473028029": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.295Z"
+    },
+    "308473028037": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.328Z"
+    },
+    "308473028045": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.359Z"
+    },
+    "309473000023": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.390Z"
+    },
+    "309473006612": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.422Z"
+    },
+    "310473000016": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.453Z"
+    },
+    "310473000024": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.485Z"
+    },
+    "310473000049": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.517Z"
+    },
+    "310473531019": {
+      "lat": 35.175,
+      "lng": 118.835,
+      "address": "莒南县（区县中心近似，非门牌）",
+      "name_matched": "莒南县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.547Z"
+    },
+    "310473700030": {
+      "lat": 35.787,
+      "lng": 118.628,
+      "address": "沂水县（区县中心近似，非门牌）",
+      "name_matched": "沂水县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.580Z"
+    },
+    "313473000001": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.611Z"
+    },
+    "313473000010": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.643Z"
+    },
+    "313473000036": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.674Z"
+    },
+    "313473000044": {
+      "lat": 35.042,
+      "lng": 118.407,
+      "address": "经开区（区县中心近似，非门牌）",
+      "name_matched": "经开区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.706Z"
+    },
+    "313473000052": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.738Z"
+    },
+    "313473000069": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.784Z"
+    },
+    "313473000077": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.815Z"
+    },
+    "313473000085": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.847Z"
+    },
+    "313473000116": {
+      "lat": 35.042,
+      "lng": 118.407,
+      "address": "经开区（区县中心近似，非门牌）",
+      "name_matched": "经开区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.879Z"
+    },
+    "313473000124": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.911Z"
+    },
+    "313473000132": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.958Z"
+    },
+    "313473000149": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:39.990Z"
+    },
+    "313473000165": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.021Z"
+    },
+    "313473000181": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.052Z"
+    },
+    "313473000331": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.084Z"
+    },
+    "313473000735": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.116Z"
+    },
+    "313473000743": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.148Z"
+    },
+    "313473000751": {
+      "lat": 35.042,
+      "lng": 118.407,
+      "address": "经开区（区县中心近似，非门牌）",
+      "name_matched": "经开区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.180Z"
+    },
+    "313473001029": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.212Z"
+    },
+    "313473018010": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.244Z"
+    },
+    "313473300070": {
+      "lat": 34.614,
+      "lng": 118.367,
+      "address": "郯城县（区县中心近似，非门牌）",
+      "name_matched": "郯城县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.276Z"
+    },
+    "313473400013": {
+      "lat": 34.857,
+      "lng": 118.071,
+      "address": "兰陵县（区县中心近似，非门牌）",
+      "name_matched": "兰陵县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.308Z"
+    },
+    "313473500102": {
+      "lat": 35.175,
+      "lng": 118.835,
+      "address": "莒南县（区县中心近似，非门牌）",
+      "name_matched": "莒南县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.340Z"
+    },
+    "313473502010": {
+      "lat": 35.175,
+      "lng": 118.835,
+      "address": "莒南县（区县中心近似，非门牌）",
+      "name_matched": "莒南县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.372Z"
+    },
+    "313473700016": {
+      "lat": 35.787,
+      "lng": 118.628,
+      "address": "沂水县（区县中心近似，非门牌）",
+      "name_matched": "沂水县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.403Z"
+    },
+    "313473900018": {
+      "lat": 35.71,
+      "lng": 117.945,
+      "address": "蒙阴县（区县中心近似，非门牌）",
+      "name_matched": "蒙阴县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.449Z"
+    },
+    "313474100012": {
+      "lat": 35.486,
+      "lng": 117.64,
+      "address": "平邑县（区县中心近似，非门牌）",
+      "name_matched": "平邑县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.481Z"
+    },
+    "313474100096": {
+      "lat": 35.486,
+      "lng": 117.64,
+      "address": "平邑县（区县中心近似，非门牌）",
+      "name_matched": "平邑县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.513Z"
+    },
+    "313474200013": {
+      "lat": 35.266,
+      "lng": 117.977,
+      "address": "费县（区县中心近似，非门牌）",
+      "name_matched": "费县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.545Z"
+    },
+    "313474200030": {
+      "lat": 35.266,
+      "lng": 117.977,
+      "address": "费县（区县中心近似，非门牌）",
+      "name_matched": "费县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.577Z"
+    },
+    "313474300063": {
+      "lat": 35.55,
+      "lng": 118.465,
+      "address": "沂南县（区县中心近似，非门牌）",
+      "name_matched": "沂南县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.609Z"
+    },
+    "313474300313": {
+      "lat": 35.55,
+      "lng": 118.465,
+      "address": "沂南县（区县中心近似，非门牌）",
+      "name_matched": "沂南县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.640Z"
+    },
+    "313474400015": {
+      "lat": 34.917,
+      "lng": 118.648,
+      "address": "临沭县（区县中心近似，非门牌）",
+      "name_matched": "临沭县",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.673Z"
+    },
+    "315473000027": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.703Z"
+    },
+    "315473000109": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.734Z"
+    },
+    "316473000017": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.766Z"
+    },
+    "319372000060": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.798Z"
+    },
+    "320473000014": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.830Z"
+    },
+    "320473000022": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.862Z"
+    },
+    "402372000829": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.894Z"
+    },
+    "402473000012": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.926Z"
+    },
+    "402473000029": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:40.972Z"
+    },
+    "402473000037": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.004Z"
+    },
+    "402473000045": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.036Z"
+    },
+    "402473000053": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.082Z"
+    },
+    "402473000061": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.114Z"
+    },
+    "402473000070": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.146Z"
+    },
+    "402473000088": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.178Z"
+    },
+    "402473000096": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.209Z"
+    },
+    "402473000107": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.242Z"
+    },
+    "402473000123": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.273Z"
+    },
+    "402473000131": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.305Z"
+    },
+    "402473000140": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.337Z"
+    },
+    "402473000158": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.369Z"
+    },
+    "402473000166": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.401Z"
+    },
+    "402473000174": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.432Z"
+    },
+    "402473000182": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.464Z"
+    },
+    "402473000199": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.496Z"
+    },
+    "402473000203": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.528Z"
+    },
+    "402473000211": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.573Z"
+    },
+    "402473000220": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.606Z"
+    },
+    "402473000238": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.652Z"
+    },
+    "402473000246": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.684Z"
+    },
+    "402473000254": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.716Z"
+    },
+    "402473000262": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.747Z"
+    },
+    "402473000279": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.780Z"
+    },
+    "402473000287": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.826Z"
+    },
+    "402473000295": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.858Z"
+    },
+    "402473000300": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.904Z"
+    },
+    "402473000318": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.936Z"
+    },
+    "402473000326": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:41.982Z"
+    },
+    "402473000334": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.013Z"
+    },
+    "402473000342": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.045Z"
+    },
+    "402473000367": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.077Z"
+    },
+    "402473000375": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.109Z"
+    },
+    "402473000414": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.141Z"
+    },
+    "402473000422": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.172Z"
+    },
+    "402473000498": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.219Z"
+    },
+    "402473000543": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.251Z"
+    },
+    "402473000560": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.282Z"
+    },
+    "402473000617": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.314Z"
+    },
+    "402473000641": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.345Z"
+    },
+    "402473000650": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.376Z"
+    },
+    "402473000668": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.408Z"
+    },
+    "402473000692": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.454Z"
+    },
+    "402473000748": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.486Z"
+    },
+    "402473000756": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.518Z"
+    },
+    "402473000764": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.550Z"
+    },
+    "402473000810": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.581Z"
+    },
+    "402473000828": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.612Z"
+    },
+    "402473000844": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.644Z"
+    },
+    "402473000885": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.675Z"
+    },
+    "402473000893": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.707Z"
+    },
+    "402473000908": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.753Z"
+    },
+    "402473000924": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.785Z"
+    },
+    "402473001099": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.831Z"
+    },
+    "402473001120": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.863Z"
+    },
+    "402473001146": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.895Z"
+    },
+    "402473001154": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.927Z"
+    },
+    "402473001179": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.959Z"
+    },
+    "402473001195": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:42.991Z"
+    },
+    "402473001200": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.022Z"
+    },
+    "402473001226": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.053Z"
+    },
+    "402473001259": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.084Z"
+    },
+    "402473001283": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.117Z"
+    },
+    "402473001291": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.149Z"
+    },
+    "402473001306": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.181Z"
+    },
+    "402473001355": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.213Z"
+    },
+    "402473001371": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.245Z"
+    },
+    "402473001443": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.291Z"
+    },
+    "402473001460": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.323Z"
+    },
+    "402473001486": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.354Z"
+    },
+    "402473001533": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.386Z"
+    },
+    "402473001541": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.432Z"
+    },
+    "402473001550": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.464Z"
+    },
+    "402473001568": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.512Z"
+    },
+    "402473001576": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.543Z"
+    },
+    "402473001584": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.575Z"
+    },
+    "402473001613": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.607Z"
+    },
+    "402473001630": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.638Z"
+    },
+    "402473001648": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.670Z"
+    },
+    "402473001656": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.702Z"
+    },
+    "402473001689": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.734Z"
+    },
+    "402473001697": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.765Z"
+    },
+    "402473001701": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.797Z"
+    },
+    "402473001728": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.829Z"
+    },
+    "402473001769": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.861Z"
+    },
+    "402473001777": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.893Z"
+    },
+    "402473001808": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.924Z"
+    },
+    "402473001824": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:43.955Z"
+    },
+    "402473001832": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.001Z"
+    },
+    "402473001904": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.034Z"
+    },
+    "403473000019": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.080Z"
+    },
+    "403473000078": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.127Z"
+    },
+    "403473000086": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.158Z"
+    },
+    "403473000094": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.190Z"
+    },
+    "403473000133": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.222Z"
+    },
+    "403473000205": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.253Z"
+    },
+    "403473000230": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.284Z"
+    },
+    "403473000248": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.316Z"
+    },
+    "403473000481": {
+      "lat": 35.09,
+      "lng": 118.403,
+      "address": "河东区（区县中心近似，非门牌）",
+      "name_matched": "河东区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.363Z"
+    },
+    "403473000490": {
+      "lat": 35.042,
+      "lng": 118.407,
+      "address": "经开区（区县中心近似，非门牌）",
+      "name_matched": "经开区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.395Z"
+    },
+    "403473000504": {
+      "lat": 35.078,
+      "lng": 118.287,
+      "address": "高新区（区县中心近似，非门牌）",
+      "name_matched": "高新区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.441Z"
+    },
+    "403473000512": {
+      "lat": 34.997,
+      "lng": 118.285,
+      "address": "罗庄区（区县中心近似，非门牌）",
+      "name_matched": "罗庄区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.473Z"
+    },
+    "403473000529": {
+      "lat": 35.051,
+      "lng": 118.348,
+      "address": "兰山区（区县中心近似，非门牌）",
+      "name_matched": "兰山区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.505Z"
+    },
+    "403473000537": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.537Z"
+    },
+    "403473000545": {
+      "lat": 35.104,
+      "lng": 118.356,
+      "address": "临沂市（区县中心近似，非门牌）",
+      "name_matched": "临沂市",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.583Z"
+    },
+    "403473500736": {
+      "lat": 35.12,
+      "lng": 119.32,
+      "address": "临港区（区县中心近似，非门牌）",
+      "name_matched": "临港区",
+      "provider": "district_approx",
+      "updated_at": "2026-07-14T05:58:44.615Z"
+    }
+  }
+}

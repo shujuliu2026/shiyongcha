@@ -1,0 +1,185 @@
+{
+  "city": "临沂",
+  "updated": "2025-08-01",
+  "category": "social",
+  "category_label": "人社社保",
+  "source": {
+    "file": "失业保险技能提升补贴经办机构信息202508010119.xlsx",
+    "publisher": "山东省/临沂人社（开放数据）",
+    "portal": "http://lydata.sd.gov.cn/"
+  },
+  "count": 17,
+  "items": [
+    {
+      "id": "1",
+      "city": "山东省本级",
+      "name": "山东省社会保险事业局",
+      "address": "济南市历下区解放东路16号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "2",
+      "city": "济南市",
+      "name": "南市社会保险事业局失业保险处",
+      "address": "市中区站前路9号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "3",
+      "city": "青岛市",
+      "name": "青岛市就业服务中心",
+      "address": "延吉路38号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "4",
+      "city": "淄博市",
+      "name": "淄博市劳动就业办公室",
+      "address": "淄博市张店区陶瓷科技城国际会展中心",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "5",
+      "city": "枣庄市",
+      "name": "枣庄市人资源服务中心",
+      "address": "枣庄市市中区龙头中路76号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "6",
+      "city": "东营市",
+      "name": "东营市公共就业和人才服务中心失业保险科",
+      "address": "东营市南一路290号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "7",
+      "city": "烟台市",
+      "name": "烟台市劳动就业办公室",
+      "address": "烟台市莱山区府后路2号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "8",
+      "city": "潍坊市",
+      "name": "潍坊市人力资源管理服务中心失业职工管理科",
+      "address": "奎文区新华路1116号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "9",
+      "city": "济宁市",
+      "name": "济宁市就业办公室失业科",
+      "address": "山东省济宁市京杭路30号人力资源社会保障综合服务中心",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "10",
+      "city": "泰安市",
+      "name": "泰安市劳动就业办公室",
+      "address": "泰安市迎胜路138号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "11",
+      "city": "威海市",
+      "name": "威海市人力资源公共服务中心",
+      "address": "威海市胶州路7号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "12",
+      "city": "日照市",
+      "name": "日照市劳动就业办公室",
+      "address": "日照市北京路128号劳动大厦",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "13",
+      "city": "临沂市",
+      "name": "临沂市社会保险事业管理处（失业保险科）",
+      "address": "临沂市北城新区北京路8号政务服务中心2楼",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": true
+    },
+    {
+      "id": "14",
+      "city": "德州市",
+      "name": "德州市社会保险中心退管科",
+      "address": "德州市东风东路1666号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "15",
+      "city": "聊城市",
+      "name": "聊城市劳动就业办公室",
+      "address": "聊城市人力资源和社会保障局二楼(振兴路西首166号)",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "16",
+      "city": "滨州市",
+      "name": "滨州市就业办公室",
+      "address": "滨城区府右街37号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    },
+    {
+      "id": "17",
+      "city": "菏泽市",
+      "name": "菏泽市社保中心失业保险科",
+      "address": "菏泽市桂陵路3999号",
+      "phone_raw": "***",
+      "phone_masked": true,
+      "phone": "",
+      "is_linyi": false
+    }
+  ],
+  "disclaimer": "电话字段在开放表中多为脱敏；临沂办事地址见本市条目，办理以现场公示为准。"
+}

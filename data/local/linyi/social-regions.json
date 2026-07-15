@@ -1,0 +1,161 @@
+{
+  "city": "临沂",
+  "updated": "2026-07-14",
+  "category": "social",
+  "category_label": "人社社保",
+  "source": {
+    "unemployment_file": "失业保险区划编码信息202508010115.xlsx",
+    "pension_file": "临沂市养老保险统筹区信息202508010116.xlsx",
+    "publisher": "临沂市人力资源和社会保障局",
+    "portal": "http://lydata.sd.gov.cn/",
+    "injury_file": "工伤保险统筹区划编码信息202508010106.xlsx"
+  },
+  "count": 18,
+  "items": [
+    {
+      "code": "371302",
+      "name": "兰山区",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371311",
+      "name": "罗庄区",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371312",
+      "name": "河东区",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371321",
+      "name": "沂南县",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371322",
+      "name": "郯城县",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371323",
+      "name": "沂水县",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371324",
+      "name": "兰陵县",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371325",
+      "name": "费县",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371326",
+      "name": "平邑县",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371327",
+      "name": "莒南县",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371328",
+      "name": "蒙阴县",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371329",
+      "name": "临沭县",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371340",
+      "name": "经济开发区",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371341",
+      "name": "高新开发区",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371342",
+      "name": "临港产业区",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371343",
+      "name": "蒙山旅游区",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371344",
+      "name": "综合保税区",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    },
+    {
+      "code": "371399",
+      "name": "市本级",
+      "agency": "社保经办机构",
+      "unemployment": true,
+      "pension": true,
+      "injury": true
+    }
+  ],
+  "disclaimer": "区划编码来自临沂开放网失业/养老/工伤保险公开表，办理业务请以社保经办机构现场公示为准。"
+}

@@ -1,0 +1,25 @@
+{
+  "updated": "2026-07-04",
+  "effective_from": "2026-07-03T24:00:00+08:00",
+  "next_window": "2026-07-17T24:00:00+08:00",
+  "note": "最高零售价参考（各地加油站可在基准价上下浮动约 5%）；请以当地挂牌价为准",
+  "regions": [
+    {
+      "id": "shandong",
+      "name": "山东（含临沂）",
+      "default": true,
+      "prices": [
+        { "grade": "92#", "product": "汽油", "yuan_per_liter": 7.14 },
+        { "grade": "95#", "product": "汽油", "yuan_per_liter": 7.66 },
+        { "grade": "98#", "product": "汽油", "yuan_per_liter": 8.66 },
+        { "grade": "0#", "product": "柴油", "yuan_per_liter": 6.74 }
+      ]
+    }
+  ],
+  "history": [
+    { "date": "2026-07-04", "gas92": 7.14, "gas95": 7.66, "diesel0": 6.74, "note": "本轮下调" },
+    { "date": "2026-06-19", "gas92": 7.90, "gas95": 8.48, "diesel0": 7.52, "note": "下调" },
+    { "date": "2026-06-05", "gas92": 8.32, "gas95": 8.92, "diesel0": 7.95, "note": "下调" }
+  ],
+  "disclaimer": "数据为公开调价信息整理，非加油站实时报价，不构成消费建议"
+}

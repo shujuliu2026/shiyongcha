@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+# 银行支行编码全量（本地 npm run import:cnaps 生成）
+data/cnaps-full.jsonl
+data/cnaps-full.meta.json
+data/*.xlsx
+/*.xlsx
+# 激活码与免费额度本地库（勿提交）
+data/licenses.json
+data/free-quota.json
+# 页面访问统计落盘（含 visitor_id）
+data/analytics/
+# 运营台：目录覆盖 / 公告 / 反馈（可含用户留言）
+data/ops/
+
+tool-api.txt
+tmp-cnaps-out.txt
+# 本地原始采集表/资料（勿入库）
+原始资料/
+

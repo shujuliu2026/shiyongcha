@@ -1,0 +1,116 @@
+{
+  "updated": "2026-07-14",
+  "categories": [
+    {
+      "id": "social",
+      "label": "人社社保",
+      "datasets": [
+        {
+          "id": "unemployment-regions",
+          "file": "失业保险区划编码信息202508010115.xlsx",
+          "tool_id": "social-regions",
+          "status": "ready"
+        },
+        {
+          "id": "pension-regions",
+          "file": "临沂市养老保险统筹区信息202508010116.xlsx",
+          "tool_id": "social-regions",
+          "status": "ready"
+        },
+        {
+          "id": "training-orgs",
+          "file": "职业培训机构目录202508040915.xlsx",
+          "tool_id": "training-orgs",
+          "status": "ready"
+        },
+        {
+          "id": "ss-card-outlets",
+          "file": "临沂市社保卡即时制卡网点202508040917.xlsx",
+          "tool_id": "ss-card",
+          "status": "ready",
+          "note": "合并 72 处即时制卡网点"
+        },
+        {
+          "id": "injury-regions",
+          "file": "工伤保险统筹区划编码信息202508010106.xlsx",
+          "tool_id": "social-regions",
+          "status": "ready"
+        },
+        {
+          "id": "skill-subsidy",
+          "file": "失业保险技能提升补贴经办机构信息202508010119.xlsx",
+          "tool_id": "skill-subsidy",
+          "status": "ready",
+          "note": "电话脱敏；地址可用"
+        },
+        {
+          "id": "edu-bases",
+          "file": "临沂市专业技术人员继续教育基地名单202508010106.xlsx",
+          "tool_id": "edu-bases",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "id": "transit",
+      "label": "出行交通",
+      "datasets": [
+        {
+          "id": "freight-stations",
+          "file": "全市道路货运场站信息202508010315.xlsx",
+          "tool_id": "freight-stations",
+          "status": "ready"
+        },
+        {
+          "id": "passenger-stations",
+          "file": "道路运输客运场站信息202508010106.xlsx",
+          "tool_id": "passenger-stations",
+          "status": "ready"
+        },
+        {
+          "id": "driving-schools",
+          "file": "一/二/三级普通机动车驾驶员培训机构",
+          "tool_id": "driving-schools",
+          "status": "ready",
+          "note": "91 家"
+        },
+        {
+          "id": "bus-ic",
+          "file": "临沂市公交集团公交IC卡办理网点202508010248.xlsx",
+          "tool_id": "bus-ic",
+          "status": "ready"
+        },
+        {
+          "id": "bus-shelters",
+          "file": "临沂市公交站亭普查信息202508010320.xlsx",
+          "tool_id": "bus-shelters",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "label": "农业行情",
+      "datasets": [
+        {
+          "id": "veg-prod",
+          "file": "临沂市分县区蔬菜（含菜用瓜）生产情况202508010154.xlsx",
+          "tool_id": "agri-prod",
+          "status": "ready"
+        },
+        {
+          "id": "grain-summer",
+          "file": "临沂市分县区夏收粮食生产情况202508010159.xlsx",
+          "tool_id": "agri-prod",
+          "status": "ready"
+        },
+        {
+          "id": "grain-autumn",
+          "file": "临沂市分县区秋收粮食生产情况202508010201.xlsx",
+          "tool_id": "agri-prod",
+          "status": "ready"
+        }
+      ]
+    }
+  ]
+}

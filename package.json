@@ -1,0 +1,34 @@
+{
+  "name": "shiyongcha",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "实用查 · 独立实用信息查询 H5 + 轻量 API",
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm run api\" \"npm run web\"",
+    "dev:preview": "concurrently -n api,web -c blue,green \"npm run api\" \"npm run serve\"",
+    "api": "node apps/api/src/server.mjs",
+    "web": "npm run dev --prefix apps/web",
+    "build": "npm run build --prefix apps/web",
+    "preview": "npm run preview --prefix apps/web",
+    "serve": "node scripts/preview-static.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "import:cnaps": "node scripts/import-cnaps-xlsx.mjs",
+    "import:bus-ic": "node scripts/import-bus-ic-xlsx.mjs",
+    "import:bus-shelters": "node scripts/import-bus-shelters-xlsx.mjs",
+    "import:open-data": "node scripts/import-open-data-linyi.mjs",
+    "enrich:places": "node scripts/enrich-masked-places.mjs",
+    "update:training-orgs": "node scripts/update-training-orgs.mjs",
+    "writeback:ss-card": "node scripts/writeback-ss-card-xlsx.mjs",
+    "writeback:enriched": "node scripts/writeback-enriched-xlsx.mjs",
+    "import:social-extras": "node scripts/import-social-extras.mjs",
+    "import:agri-prod": "node scripts/import-agri-prod.mjs",
+    "audit:linyi-banks": "node scripts/audit-linyi-banks.mjs",
+    "geocode:linyi-banks": "node scripts/geocode-linyi-banks.mjs",
+    "license:issue": "node scripts/license-issue.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "xlsx": "^0.18.5"
+  }
+}
