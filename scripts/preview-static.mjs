@@ -23,10 +23,12 @@ const MIME = {
   '.webmanifest': 'application/manifest+json'
 }
 
-function sendFile (res, filePath) {
+const ASSET_EXT = new Set(Object.keys(MIME).filter((e) => e !== '.html'))
+
+function sendFile (res, filePath, extraHeaders = {}) {
   const ext = path.extname(filePath)
   const type = MIME[ext] || 'application/octet-stream'
-  res.writeHead(200, { 'Content-Type': type })
+  res.writeHead(200, { 'Content-Type': type, ...extraHeaders })
   fs.createReadStream(filePath).pipe(res)
 }
 
@@ -71,10 +73,27 @@ const server = http.createServer(async (req, res) => {
     res.writeHead(403)
     return res.end('forbidden')
   }
-  if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
+
+  const exists = fs.existsSync(filePath) && fs.statSync(filePath).isFile()
+  if (!exists) {
+    const ext = path.extname(url.pathname).toLowerCase()
+    // Hashed assets / static files must 404 — never SPA-fallback HTML as JS/CSS
+    // (stale tab after rebuild → "Failed to fetch dynamically imported module")
+    if (ASSET_EXT.has(ext) || url.pathname.startsWith('/assets/')) {
+      res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' })
+      return res.end('not found')
+    }
     filePath = path.join(DIST, 'index.html')
   }
-  sendFile(res, filePath)
+
+  const isIndex = path.basename(filePath) === 'index.html'
+  sendFile(
+    res,
+    filePath,
+    isIndex
+      ? { 'Cache-Control': 'no-cache' }
+      : { 'Cache-Control': 'public, max-age=31536000, immutable' }
+  )
 })
 
 server.listen(PORT, '0.0.0.0', () => {

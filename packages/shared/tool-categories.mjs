@@ -14,9 +14,9 @@
 
 /** @type {CategoryDef[]} */
 export const LOCAL_CATEGORIES = [
-  { id: 'social', label: '人社社保', sort: 10, hint: '养老/失业区划 · 职业培训' },
+  { id: 'social', label: '人社社保', sort: 10, hint: '养老/失业区划 · 职业培训 · 户籍电话' },
   { id: 'transit', label: '出行交通', sort: 20, hint: '公交 · 站亭 · IC卡 · 货运场站' },
-  { id: 'life', label: '生活便民', sort: 30, hint: '医院 · 电话 · 邮编 · 地方史' },
+  { id: 'life', label: '生活便民', sort: 30, hint: '医院 · 电话 · 邮编 · 地方史 · 旧时光' },
   { id: 'agriculture', label: '农业行情', sort: 35, hint: '蔬菜 · 夏粮 · 秋粮' },
   { id: 'weather', label: '气象环境', sort: 40, hint: '天气 · 空气质量' },
   { id: 'finance', label: '金融银行', sort: 50, hint: '本地网点 · 联行号' }

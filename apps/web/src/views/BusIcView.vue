@@ -2,6 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -141,8 +142,9 @@ onMounted(() => {
               <div class="row">
                 <button type="button" class="btn btn--ghost" @click="copyText(item.address)">复制地址</button>
                 <a class="btn btn--ghost" :href="mapsLink(item)" target="_blank" rel="noopener">地图</a>
+                <CorrectBtn :item="item.name" :hint="`${item.district || ''} ${item.address || ''}`" />
               </div>
-            </div>
+          </div>
           </li>
         </ul>
       </section>

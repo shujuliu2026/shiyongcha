@@ -1,0 +1,4455 @@
+{
+  "city": "临沂",
+  "city_id": "linyi",
+  "updated": "2026-08-08",
+  "source_note": "临沂市户籍窗口咨询电话大全.xlsx + 户籍自助查询_20260808.csv",
+  "disclaimer": "电话与地址仅供参考，请以公安机关最新公示为准；拨打前请确认服务时间。地图坐标为地理编码参考，非官方勘界。",
+  "kinds": [
+    {
+      "id": "window",
+      "label": "户籍窗口",
+      "count": 227
+    },
+    {
+      "id": "self",
+      "label": "自助受理点",
+      "count": 17
+    }
+  ],
+  "districts": [
+    "费县",
+    "高新区",
+    "河东区",
+    "莒南县",
+    "兰陵县",
+    "兰山区",
+    "临港区",
+    "临沭县",
+    "罗庄区",
+    "蒙阴县",
+    "平邑县",
+    "郯城县",
+    "沂河新区",
+    "沂南县",
+    "沂水县"
+  ],
+  "count": 244,
+  "geo_ok": 244,
+  "items": [
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局",
+      "phones": [
+        "0539-7303056"
+      ],
+      "tel": "0539-7303056",
+      "address": "兰山区考棚街1号",
+      "note": "分局户政大厅",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.792Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局沂州路派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局沂州路派出所",
+      "phones": [
+        "0539-7303056"
+      ],
+      "tel": "0539-7303056",
+      "address": "考棚街与沂州路交会西30米路北",
+      "note": "户籍已搬迁至分局户政大厅",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局东关街派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局东关街派出所",
+      "phones": [
+        "0539-7305007"
+      ],
+      "tel": "0539-7305007",
+      "address": "兰山区解放路与琅琊街交汇新东关26号楼沿街",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局北园路派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局北园路派出所",
+      "phones": [
+        "0539-7305012"
+      ],
+      "tel": "0539-7305012",
+      "address": "兰山区北园路7号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局兰山路派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局兰山路派出所",
+      "phones": [
+        "0539-7305047"
+      ],
+      "tel": "0539-7305047",
+      "address": "兰山区解放路227号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局西郊派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局西郊派出所",
+      "phones": [
+        "0539-7305020"
+      ],
+      "tel": "0539-7305020",
+      "address": "兰山区金雀山路与王庄路交汇北80米路西",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局车站派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局车站派出所",
+      "phones": [
+        "0539-7303056"
+      ],
+      "tel": "0539-7303056",
+      "address": "兰山区金雀山路与八一路交汇北80米路西",
+      "note": "户籍已搬迁至区政务服务中心",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局五里堡派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局五里堡派出所",
+      "phones": [
+        "0539-7305027"
+      ],
+      "tel": "0539-7305027",
+      "address": "兰山区金雀山路与王庄路交汇北80米路西",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局金雀山派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局金雀山派出所",
+      "phones": [
+        "0539-7305031"
+      ],
+      "tel": "0539-7305031",
+      "address": "兰山区沂州路269号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:38:35.502Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局银雀山派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局银雀山派出所",
+      "phones": [
+        "0539-7303056"
+      ],
+      "tel": "0539-7303056",
+      "address": "兰山区金雀山路与八一路交汇北80米路西",
+      "note": "户籍已搬迁至区政务服务中心",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局站前派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局站前派出所",
+      "phones": [
+        "0539-7305039"
+      ],
+      "tel": "0539-7305039",
+      "address": "兰山区清河北路与八一路交汇南100米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局红埠寺派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局红埠寺派出所",
+      "phones": [
+        "0539-7305059"
+      ],
+      "tel": "0539-7305059",
+      "address": "兰山区临西九路与水田路交汇北200米路西",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局育才路派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局育才路派出所",
+      "phones": [
+        "0539-7305063"
+      ],
+      "tel": "0539-7305063",
+      "address": "兰山区育才路105号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局北京路派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局北京路派出所",
+      "phones": [
+        "0539-7305072"
+      ],
+      "tel": "0539-7305072",
+      "address": "兰山区北京路19号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局大学派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局大学派出所",
+      "phones": [
+        "0539-7305067"
+      ],
+      "tel": "0539-7305067",
+      "address": "兰山区双岭路47号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局李官派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局李官派出所",
+      "phones": [
+        "0539-7305074"
+      ],
+      "tel": "0539-7305074",
+      "address": "兰山区李官镇李官村府前街803号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局半程派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局半程派出所",
+      "phones": [
+        "0539-7305080"
+      ],
+      "tel": "0539-7305080",
+      "address": "兰山区半程镇东程路镇政府对过",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局枣园派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局枣园派出所",
+      "phones": [
+        "0539-7305088"
+      ],
+      "tel": "0539-7305088",
+      "address": "兰山区枣园镇永安路与蒙山一路交叉口西北角镇政府内",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局柳青派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局柳青派出所",
+      "phones": [
+        "0539-7305092"
+      ],
+      "tel": "0539-7305092",
+      "address": "兰山区沂蒙北路与长沙路交会处向北200米路东",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局义堂派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局义堂派出所",
+      "phones": [
+        "0539-7305095"
+      ],
+      "tel": "0539-7305095",
+      "address": "兰山区义堂镇西外环浙江工业园内",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.793Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局市场派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局市场派出所",
+      "phones": [
+        "0539-7305015"
+      ],
+      "tel": "0539-7305015",
+      "address": "兰山区义堂镇西城大街59号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局朱保派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局朱保派出所",
+      "phones": [
+        "0539-7305098"
+      ],
+      "tel": "0539-7305098",
+      "address": "兰山区义堂镇朱保中纬路6号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局新桥派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局新桥派出所",
+      "phones": [
+        "0539-7305635"
+      ],
+      "tel": "0539-7305635",
+      "address": "兰山区方城镇229省道西石桥村处",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局汪沟派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局汪沟派出所",
+      "phones": [
+        "0539-7305596"
+      ],
+      "tel": "0539-7305596",
+      "address": "兰山区汪沟镇东汪沟驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局方城派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局方城派出所",
+      "phones": [
+        "0539-7305620"
+      ],
+      "tel": "0539-7305620",
+      "address": "兰山区方城镇北环路29号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局南涑河派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局南涑河派出所",
+      "phones": [
+        "0539-7305724"
+      ],
+      "tel": "0539-7305724",
+      "address": "兰山区工业园大阳路与创业路交汇",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|兰山区|临沂市公安局兰山分局南坊派出所",
+      "kind": "window",
+      "district": "兰山区",
+      "name": "临沂市公安局兰山分局南坊派出所",
+      "phones": [
+        "0539-7303197"
+      ],
+      "tel": "0539-7303197",
+      "address": "兰山区北京路与沂山路交汇西北角",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局",
+      "phones": [
+        "0539-8345259",
+        "19853931980"
+      ],
+      "tel": "0539-8345259",
+      "address": "罗庄区湖北路67号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局罗庄派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局罗庄派出所",
+      "phones": [
+        "0539-8345355"
+      ],
+      "tel": "0539-8345355",
+      "address": "罗庄区文化路中段",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局朱陈派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局朱陈派出所",
+      "phones": [
+        "0539-8261550"
+      ],
+      "tel": "0539-8261550",
+      "address": "罗庄区罗七路359号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局沈泉庄派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局沈泉庄派出所",
+      "phones": [
+        "0539-5492149"
+      ],
+      "tel": "0539-5492149",
+      "address": "罗庄区文化二路77号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局盛庄派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局盛庄派出所",
+      "phones": [
+        "0539-8597110"
+      ],
+      "tel": "0539-8597110",
+      "address": "罗庄区罗四路30号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局双月湖派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局双月湖派出所",
+      "phones": [
+        "0539-8269603"
+      ],
+      "tel": "0539-8269603",
+      "address": "罗庄区双月园路118号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局美澳派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局美澳派出所",
+      "phones": [
+        "0539-8345371"
+      ],
+      "tel": "0539-8345371",
+      "address": "罗庄区中丘路38号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局西高都派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局西高都派出所",
+      "phones": [
+        "0539-8573669",
+        "0539-8571110"
+      ],
+      "tel": "0539-8573669",
+      "address": "罗庄区罗程路中段",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.794Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局册山派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局册山派出所",
+      "phones": [
+        "0539-8345351"
+      ],
+      "tel": "0539-8345351",
+      "address": "罗庄区江付路32号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.795Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局付庄派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局付庄派出所",
+      "phones": [
+        "0539-8345199"
+      ],
+      "tel": "0539-8345199",
+      "address": "罗庄区镇中路57号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.795Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局汤庄派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局汤庄派出所",
+      "phones": [
+        "0539-8345360",
+        "19653916121"
+      ],
+      "tel": "0539-8345360",
+      "address": "罗庄区樱花路1号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.795Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局沂堂派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局沂堂派出所",
+      "phones": [
+        "0539-5506110",
+        "18315673050"
+      ],
+      "tel": "0539-5506110",
+      "address": "罗庄区沂堂镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.795Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局褚墩派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局褚墩派出所",
+      "phones": [
+        "0539-6709110"
+      ],
+      "tel": "0539-6709110",
+      "address": "罗庄区健康路8号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.795Z"
+    },
+    {
+      "id": "window|罗庄区|临沂市公安局罗庄分局黄山派出所",
+      "kind": "window",
+      "district": "罗庄区",
+      "name": "临沂市公安局罗庄分局黄山派出所",
+      "phones": [
+        "0539-5492164"
+      ],
+      "tel": "0539-5492164",
+      "address": "罗庄区黄山镇人民路47号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局（户政大厅）",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局（户政大厅）",
+      "phones": [
+        "0539-8965455"
+      ],
+      "tel": "0539-8965455",
+      "address": "河东区桃源街1299号桃源路派出所一楼",
+      "note": "户政大厅已搬迁",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局九曲派出所",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局九曲派出所",
+      "phones": [
+        "0539-8965439"
+      ],
+      "tel": "0539-8965439",
+      "address": "河东区银桥街701号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局桃源路派出所",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局桃源路派出所",
+      "phones": [
+        "0539-8965455"
+      ],
+      "tel": "0539-8965455",
+      "address": "河东区九曲办事处桃源街1299号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局温泉路派出所",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局温泉路派出所",
+      "phones": [
+        "0539-8965459"
+      ],
+      "tel": "0539-8965459",
+      "address": "河东区凤凰大街139号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局工业园区派出所",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局工业园区派出所",
+      "phones": [
+        "0539-8965403"
+      ],
+      "tel": "0539-8965403",
+      "address": "河东区启航路与东夷大街交汇处十字路口东北角",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局汤头派出所",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局汤头派出所",
+      "phones": [
+        "0539-8965415"
+      ],
+      "tel": "0539-8965415",
+      "address": "河东区汤头办事处西南村3002号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局太平派出所",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局太平派出所",
+      "phones": [
+        "0539-8965422"
+      ],
+      "tel": "0539-8965422",
+      "address": "河东区太平街道办事处郭太平村2100号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局葛沟派出所",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局葛沟派出所",
+      "phones": [
+        "0539-8965498"
+      ],
+      "tel": "0539-8965498",
+      "address": "河东区汤头街道大墩庄586号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局八湖派出所",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局八湖派出所",
+      "phones": [
+        "0539-8965427"
+      ],
+      "tel": "0539-8965427",
+      "address": "河东区八湖镇金来缘大酒店向东230米路北",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局郑旺派出所",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局郑旺派出所",
+      "phones": [
+        "0539-8965431"
+      ],
+      "tel": "0539-8965431",
+      "address": "河东区郑旺镇汤大线与商业街交汇西500米路北",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|河东区|临沂市公安局河东分局汤河派出所",
+      "kind": "window",
+      "district": "河东区",
+      "name": "临沂市公安局河东分局汤河派出所",
+      "phones": [
+        "0539-8965469"
+      ],
+      "tel": "0539-8965469",
+      "address": "河东区汤河镇西洽沟村282号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.09,
+      "lng": 118.403,
+      "geo_provider": "district_approx",
+      "geo_address": "河东区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局",
+      "phones": [
+        "0539-3775494"
+      ],
+      "tel": "0539-3775494",
+      "address": "沂南县振兴路111号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局界湖派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局界湖派出所",
+      "phones": [
+        "0539-3775559"
+      ],
+      "tel": "0539-3775559",
+      "address": "沂南县芙蓉路与朝阳路交汇处往北约150米路东",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局城区派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局城区派出所",
+      "phones": [
+        "0539-3775422"
+      ],
+      "tel": "0539-3775422",
+      "address": "沂南县团山路34号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局岸堤派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局岸堤派出所",
+      "phones": [
+        "0539-3740018"
+      ],
+      "tel": "0539-3740018",
+      "address": "沂南县岸堤镇滨河路3号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局青驼派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局青驼派出所",
+      "phones": [
+        "0539-3775475"
+      ],
+      "tel": "0539-3775475",
+      "address": "沂南县迎宾路与银杏路交汇西20米路北",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局张庄派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局张庄派出所",
+      "phones": [
+        "0539-3775470"
+      ],
+      "tel": "0539-3775470",
+      "address": "沂南县光明路与葛岸线交汇处向东100米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局大庄派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局大庄派出所",
+      "phones": [
+        "0539-3775485"
+      ],
+      "tel": "0539-3775485",
+      "address": "沂南县大庄镇政府西",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局苏村派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局苏村派出所",
+      "phones": [
+        "0539-3775318"
+      ],
+      "tel": "0539-3775318",
+      "address": "沂南县G233路与S313路交汇处南一百米路东",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.796Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局铜井派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局铜井派出所",
+      "phones": [
+        "0539-3775449"
+      ],
+      "tel": "0539-3775449",
+      "address": "沂南县229省道铜井中心小学北100米路西",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局砖埠派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局砖埠派出所",
+      "phones": [
+        "0539-3775478"
+      ],
+      "tel": "0539-3775478",
+      "address": "沂南县葛岸线西",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局辛集派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局辛集派出所",
+      "phones": [
+        "0539-5490096"
+      ],
+      "tel": "0539-5490096",
+      "address": "沂南县通达路5号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局蒲汪派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局蒲汪派出所",
+      "phones": [
+        "0539-3775491"
+      ],
+      "tel": "0539-3775491",
+      "address": "沂南县政府西邻",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局湖头派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局湖头派出所",
+      "phones": [
+        "0539-3775402"
+      ],
+      "tel": "0539-3775402",
+      "address": "沂南县昌平路16号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局依汶派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局依汶派出所",
+      "phones": [
+        "0539-3775454"
+      ],
+      "tel": "0539-3775454",
+      "address": "沂南县依汶镇初级中学东",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局马牧池派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局马牧池派出所",
+      "phones": [
+        "0539-3775455"
+      ],
+      "tel": "0539-3775455",
+      "address": "沂南县界蒙路6号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局孙祖派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局孙祖派出所",
+      "phones": [
+        "0539-3775465"
+      ],
+      "tel": "0539-3775465",
+      "address": "沂南县圣刘线",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局双堠派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局双堠派出所",
+      "phones": [
+        "0539-3775473"
+      ],
+      "tel": "0539-3775473",
+      "address": "沂南县中心小学东临",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局独树派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局独树派出所",
+      "phones": [
+        "0539-3775343"
+      ],
+      "tel": "0539-3775343",
+      "address": "沂南县智圣路1号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|沂南县|沂南县公安局开发区派出所",
+      "kind": "window",
+      "district": "沂南县",
+      "name": "沂南县公安局开发区派出所",
+      "phones": [
+        "0539-3775446"
+      ],
+      "tel": "0539-3775446",
+      "address": "沂南县太合路2号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局",
+      "phones": [
+        "0539-6153280",
+        "17862259551"
+      ],
+      "tel": "0539-6153280",
+      "address": "郯城县北环路33号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局东关派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局东关派出所",
+      "phones": [
+        "0539-6153103",
+        "17862259620"
+      ],
+      "tel": "0539-6153103",
+      "address": "郯城县文化路与文明路交汇处",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局西关派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局西关派出所",
+      "phones": [
+        "0539-6153105",
+        "17862259518"
+      ],
+      "tel": "0539-6153105",
+      "address": "郯城县人民路265号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局南关派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局南关派出所",
+      "phones": [
+        "0539-6153109",
+        "17862210018"
+      ],
+      "tel": "0539-6153109",
+      "address": "郯城县郯东路181号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局北关派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局北关派出所",
+      "phones": [
+        "0539-6153115",
+        "13013538110"
+      ],
+      "tel": "0539-6153115",
+      "address": "郯城街道郯东路72号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局泉源派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局泉源派出所",
+      "phones": [
+        "0539-6153132",
+        "17862277528"
+      ],
+      "tel": "0539-6153132",
+      "address": "郯城县泉源镇泉东路19号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局庙山派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局庙山派出所",
+      "phones": [
+        "0539-6153144",
+        "17862259298"
+      ],
+      "tel": "0539-6153144",
+      "address": "郯城县庙山镇驻地205国道边",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局马头派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局马头派出所",
+      "phones": [
+        "0539-6153167",
+        "17862289962"
+      ],
+      "tel": "0539-6153167",
+      "address": "郯城县马头镇南园街仿古街南首",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局港上派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局港上派出所",
+      "phones": [
+        "0539-6153164",
+        "17862231761"
+      ],
+      "tel": "0539-6153164",
+      "address": "郯城县花马路港上驻地北",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.799Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局花园派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局花园派出所",
+      "phones": [
+        "0539-6153153",
+        "17862271696"
+      ],
+      "tel": "0539-6153153",
+      "address": "郯城县花园镇白溪路3号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局高峰头派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局高峰头派出所",
+      "phones": [
+        "0539-6153192",
+        "17862258003"
+      ],
+      "tel": "0539-6153192",
+      "address": "郯城县高峰头镇驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局胜利派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局胜利派出所",
+      "phones": [
+        "0539-6153152",
+        "17862259323"
+      ],
+      "tel": "0539-6153152",
+      "address": "郯城县胜利镇驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局重坊派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局重坊派出所",
+      "phones": [
+        "0539-6153170",
+        "17862289506"
+      ],
+      "tel": "0539-6153170",
+      "address": "郯城县重坊镇朝阳路18号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局归昌派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局归昌派出所",
+      "phones": [
+        "0539-6153174",
+        "17862268651"
+      ],
+      "tel": "0539-6153174",
+      "address": "郯城县归昌乡陈庄村刘瓦线南400米西侧",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局红花派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局红花派出所",
+      "phones": [
+        "0539-6153183",
+        "17862213796"
+      ],
+      "tel": "0539-6153183",
+      "address": "郯城县红花镇府前路19号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局杨集派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局杨集派出所",
+      "phones": [
+        "0539-6153178",
+        "17862289836"
+      ],
+      "tel": "0539-6153178",
+      "address": "郯城县杨集镇驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|郯城县|郯城县公安局李庄派出所",
+      "kind": "window",
+      "district": "郯城县",
+      "name": "郯城县公安局李庄派出所",
+      "phones": [
+        "0539-6153140",
+        "17862259688"
+      ],
+      "tel": "0539-6153140",
+      "address": "郯城县李庄镇驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局",
+      "phones": [
+        "0539-2274670"
+      ],
+      "tel": "0539-2274670",
+      "address": "沂水县沂城街道中心街19号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局城区派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局城区派出所",
+      "phones": [
+        "0539-2274503"
+      ],
+      "tel": "0539-2274503",
+      "address": "沂水县沂城街道鑫华路39号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局城郊派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局城郊派出所",
+      "phones": [
+        "0539-2274508"
+      ],
+      "tel": "0539-2274508",
+      "address": "沂水县北一环路127号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局城东派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局城东派出所",
+      "phones": [
+        "0539-5490518"
+      ],
+      "tel": "0539-5490518",
+      "address": "沂城街道雪山河路8号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局许家湖派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局许家湖派出所",
+      "phones": [
+        "0539-2274523"
+      ],
+      "tel": "0539-2274523",
+      "address": "沂水县许家湖镇东红路53号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局四十里派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局四十里派出所",
+      "phones": [
+        "0539-2274518"
+      ],
+      "tel": "0539-2274518",
+      "address": "沂水县四十里堡镇莒沂路7号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局崔家峪派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局崔家峪派出所",
+      "phones": [
+        "0539-2274533"
+      ],
+      "tel": "0539-2274533",
+      "address": "沂水县崔家峪镇兖石路17号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局高庄派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局高庄派出所",
+      "phones": [
+        "0539-2274548"
+      ],
+      "tel": "0539-2274548",
+      "address": "沂水县高庄镇正大路77号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局道托派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局道托派出所",
+      "phones": [
+        "0539-2274563"
+      ],
+      "tel": "0539-2274563",
+      "address": "沂水县道托镇腾飞路69号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局院东头派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局院东头派出所",
+      "phones": [
+        "0539-2274553"
+      ],
+      "tel": "0539-2274553",
+      "address": "沂水县院东头镇院东头街9号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局杨庄派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局杨庄派出所",
+      "phones": [
+        "0539-2274588"
+      ],
+      "tel": "0539-2274588",
+      "address": "沂水县杨庄镇创业路39号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局黄山铺派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局黄山铺派出所",
+      "phones": [
+        "0539-2274528"
+      ],
+      "tel": "0539-2274528",
+      "address": "沂水县黄山铺镇兖石路33号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.801Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局马站派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局马站派出所",
+      "phones": [
+        "0539-2274573"
+      ],
+      "tel": "0539-2274573",
+      "address": "沂水县马站镇健康东路1号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局沙沟派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局沙沟派出所",
+      "phones": [
+        "0539-2274578"
+      ],
+      "tel": "0539-2274578",
+      "address": "沂水县沙沟镇即发大街103号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局富官庄派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局富官庄派出所",
+      "phones": [
+        "0539-2274593"
+      ],
+      "tel": "0539-2274593",
+      "address": "沂水县富官庄镇朝阳路39号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局高桥派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局高桥派出所",
+      "phones": [
+        "0539-2274568"
+      ],
+      "tel": "0539-2274568",
+      "address": "沂水县高桥镇桥舜路13号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局诸葛派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局诸葛派出所",
+      "phones": [
+        "0539-2274583"
+      ],
+      "tel": "0539-2274583",
+      "address": "沂水县诸葛镇博沂路23号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局夏蔚派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局夏蔚派出所",
+      "phones": [
+        "0539-2274543"
+      ],
+      "tel": "0539-2274543",
+      "address": "沂水县夏蔚镇文化路9号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局泉庄派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局泉庄派出所",
+      "phones": [
+        "0539-2274538"
+      ],
+      "tel": "0539-2274538",
+      "address": "沂水县泉庄镇崔泉路7号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局龙家圈派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局龙家圈派出所",
+      "phones": [
+        "0539-2274513"
+      ],
+      "tel": "0539-2274513",
+      "address": "沂水县龙家圈街道泰石路29号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局圈里派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局圈里派出所",
+      "phones": [
+        "0539-2274598"
+      ],
+      "tel": "0539-2274598",
+      "address": "沂水县圈里乡上郭路2号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|沂水县|沂水县公安局开发区派出所",
+      "kind": "window",
+      "district": "沂水县",
+      "name": "沂水县公安局开发区派出所",
+      "phones": [
+        "0539-2274505"
+      ],
+      "tel": "0539-2274505",
+      "address": "沂水县天目山路和锦江路交叉口50米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局",
+      "phones": [
+        "0539-5567420"
+      ],
+      "tel": "0539-5567420",
+      "address": "兰陵县城开阳路1号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局东关派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局东关派出所",
+      "phones": [
+        "0539-5493819"
+      ],
+      "tel": "0539-5493819",
+      "address": "兰陵县城文峰路与桃李路交汇处路东",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局城关派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局城关派出所",
+      "phones": [
+        "0539-5567149"
+      ],
+      "tel": "0539-5567149",
+      "address": "兰陵县城中兴路中段",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局北关派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局北关派出所",
+      "phones": [
+        "0539-5567484"
+      ],
+      "tel": "0539-5567484",
+      "address": "兰陵县城中兴路北段",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局卞庄派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局卞庄派出所",
+      "phones": [
+        "0539-5567493"
+      ],
+      "tel": "0539-5567493",
+      "address": "兰陵县城诚信路",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局开发区派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局开发区派出所",
+      "phones": [
+        "0539-5210110"
+      ],
+      "tel": "0539-5210110",
+      "address": "兰陵县城抱犊崮路中段",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局向城派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局向城派出所",
+      "phones": [
+        "0539-5567102"
+      ],
+      "tel": "0539-5567102",
+      "address": "兰陵县向城镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局兰陵派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局兰陵派出所",
+      "phones": [
+        "0539-5567104"
+      ],
+      "tel": "0539-5567104",
+      "address": "兰陵县兰陵镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局大仲村派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局大仲村派出所",
+      "phones": [
+        "0539-5567130"
+      ],
+      "tel": "0539-5567130",
+      "address": "兰陵县大仲村镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局神山派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局神山派出所",
+      "phones": [
+        "0539-5567124"
+      ],
+      "tel": "0539-5567124",
+      "address": "兰陵县神山镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.803Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局磨山派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局磨山派出所",
+      "phones": [
+        "0539-5567123"
+      ],
+      "tel": "0539-5567123",
+      "address": "兰陵县磨山镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局长城派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局长城派出所",
+      "phones": [
+        "0539-5567112"
+      ],
+      "tel": "0539-5567112",
+      "address": "兰陵县长城镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局车辋派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局车辋派出所",
+      "phones": [
+        "0539-5567144"
+      ],
+      "tel": "0539-5567144",
+      "address": "兰陵县车辋镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局金岭派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局金岭派出所",
+      "phones": [
+        "0539-5567142"
+      ],
+      "tel": "0539-5567142",
+      "address": "兰陵县苍山街道办事处驻地向西500米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局鲁城派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局鲁城派出所",
+      "phones": [
+        "0539-5567137"
+      ],
+      "tel": "0539-5567137",
+      "address": "兰陵县鲁城镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局南桥派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局南桥派出所",
+      "phones": [
+        "0539-5567107"
+      ],
+      "tel": "0539-5567107",
+      "address": "兰陵县南桥镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局下村派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局下村派出所",
+      "phones": [
+        "0539-5567134"
+      ],
+      "tel": "0539-5567134",
+      "address": "兰陵县下村乡政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局新兴派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局新兴派出所",
+      "phones": [
+        "0539-5567136"
+      ],
+      "tel": "0539-5567136",
+      "address": "兰陵县新兴镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局矿坑派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局矿坑派出所",
+      "phones": [
+        "0539-5567132"
+      ],
+      "tel": "0539-5567132",
+      "address": "兰陵县矿坑镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局尚岩派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局尚岩派出所",
+      "phones": [
+        "0539-5567146"
+      ],
+      "tel": "0539-5567146",
+      "address": "兰陵县尚岩镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局芦柞派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局芦柞派出所",
+      "phones": [
+        "0539-5567159"
+      ],
+      "tel": "0539-5567159",
+      "address": "兰陵县芦柞镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|兰陵县|兰陵县公安局庄坞派出所",
+      "kind": "window",
+      "district": "兰陵县",
+      "name": "兰陵县公安局庄坞派出所",
+      "phones": [
+        "0539-5567117"
+      ],
+      "tel": "0539-5567117",
+      "address": "兰陵县庄坞镇政府驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|费县|费县公安局",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局",
+      "phones": [
+        "0539-5807069"
+      ],
+      "tel": "0539-5807069",
+      "address": "费县文昌路16号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|费县|费县公安局钟罗山派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局钟罗山派出所",
+      "phones": [
+        "0539-5807403"
+      ],
+      "tel": "0539-5807403",
+      "address": "费县站北路16号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|费县|费县公安局城南派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局城南派出所",
+      "phones": [
+        "0539-5033001"
+      ],
+      "tel": "0539-5033001",
+      "address": "费县幸福路76号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|费县|费县公安局河东派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局河东派出所",
+      "phones": [
+        "0539-5493636"
+      ],
+      "tel": "0539-5493636",
+      "address": "费县滨河东路与兴业路交汇处",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|费县|费县公安局上冶派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局上冶派出所",
+      "phones": [
+        "0539-5493674"
+      ],
+      "tel": "0539-5493674",
+      "address": "费县上冶镇日兰高速费县高速收费站路口北600米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|费县|费县公安局东蒙派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局东蒙派出所",
+      "phones": [
+        "15653926891"
+      ],
+      "tel": "15653926891",
+      "address": "费县明德小学东门向北150米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|费县|费县公安局大田庄派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局大田庄派出所",
+      "phones": [
+        "13176085652"
+      ],
+      "tel": "13176085652",
+      "address": "费县大田庄乡大田庄村1号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|费县|费县公安局薛庄派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局薛庄派出所",
+      "phones": [
+        "0539-5807473"
+      ],
+      "tel": "0539-5807473",
+      "address": "费县薛庄镇农村商业银行北100米路西",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.806Z"
+    },
+    {
+      "id": "window|费县|费县公安局梁邱派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局梁邱派出所",
+      "phones": [
+        "0539-5921020"
+      ],
+      "tel": "0539-5921020",
+      "address": "费县梁邱镇人民路梁邱镇人民政府东邻",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|费县|费县公安局朱田派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局朱田派出所",
+      "phones": [
+        "0539-5807427"
+      ],
+      "tel": "0539-5807427",
+      "address": "费县朱田镇朱田村531号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|费县|费县公安局刘庄派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局刘庄派出所",
+      "phones": [
+        "0539-5641568"
+      ],
+      "tel": "0539-5641568",
+      "address": "费县探沂镇刘庄村三组567号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|费县|费县公安局马庄派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局马庄派出所",
+      "phones": [
+        "0539-5807444"
+      ],
+      "tel": "0539-5807444",
+      "address": "费县马庄镇马庄街村北山",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|费县|费县公安局探沂派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局探沂派出所",
+      "phones": [
+        "0539-5612305"
+      ],
+      "tel": "0539-5612305",
+      "address": "费县探沂镇振兴路77号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|费县|费县公安局胡阳派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局胡阳派出所",
+      "phones": [
+        "0539-5807471"
+      ],
+      "tel": "0539-5807471",
+      "address": "费县胡阳镇养马庄村1号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|费县|费县公安局新庄派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局新庄派出所",
+      "phones": [
+        "0539-5493596"
+      ],
+      "tel": "0539-5493596",
+      "address": "费县新庄镇政府西邻",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|费县|费县公安局石井派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局石井派出所",
+      "phones": [
+        "0539-5807434"
+      ],
+      "tel": "0539-5807434",
+      "address": "费县石井镇石井村",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|费县|费县公安局高铁新区派出所",
+      "kind": "window",
+      "district": "费县",
+      "name": "费县公安局高铁新区派出所",
+      "phones": [
+        "0539-5061110"
+      ],
+      "tel": "0539-5061110",
+      "address": "费县费城街道办事处员外村驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.266,
+      "lng": 117.977,
+      "geo_provider": "district_approx",
+      "geo_address": "费县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局",
+      "phones": [
+        "0539-4883827"
+      ],
+      "tel": "0539-4883827",
+      "address": "平邑县浚河路81-2号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局城区派出所（城郊受理点）",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局城区派出所（城郊受理点）",
+      "phones": [
+        "0539-4883542"
+      ],
+      "tel": "0539-4883542",
+      "address": "平邑县建设路1号城区派出所（建设路与石都大道交汇处）",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局城郊派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局城郊派出所",
+      "phones": [
+        "0539-4883543"
+      ],
+      "tel": "0539-4883543",
+      "address": "平邑县平保路3号城郊派出所（五岔路口往北200米）",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局西城派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局西城派出所",
+      "phones": [
+        "0539-4883544"
+      ],
+      "tel": "0539-4883544",
+      "address": "平邑县公园路100号西城派出所（西苑街与启阳街交汇处）",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局城南派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局城南派出所",
+      "phones": [
+        "0539-4883545"
+      ],
+      "tel": "0539-4883545",
+      "address": "平邑县城南派出所（淮河路与香山路交叉口西北60米）",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局城南派出所（开发区受理点）",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局城南派出所（开发区受理点）",
+      "phones": [
+        "0539-4883563"
+      ],
+      "tel": "0539-4883563",
+      "address": "平邑县汉阙路与黄金路交叉口东北100米 开发区派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局仲村派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局仲村派出所",
+      "phones": [
+        "0539-4883546"
+      ],
+      "tel": "0539-4883546",
+      "address": "平邑县仲村镇驻地文泗线 仲村派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局武台派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局武台派出所",
+      "phones": [
+        "0539-4883547"
+      ],
+      "tel": "0539-4883547",
+      "address": "平邑县武台镇驻地武台派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局保太派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局保太派出所",
+      "phones": [
+        "0539-4883548"
+      ],
+      "tel": "0539-4883548",
+      "address": "平邑县保太镇驻地保太派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局卞桥派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局卞桥派出所",
+      "phones": [
+        "0539-4883551"
+      ],
+      "tel": "0539-4883551",
+      "address": "平邑县卞桥镇驻地卞桥派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局地方派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局地方派出所",
+      "phones": [
+        "0539-4883553"
+      ],
+      "tel": "0539-4883553",
+      "address": "平邑县地方镇驻地地方派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.808Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局铜石派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局铜石派出所",
+      "phones": [
+        "0539-4883554"
+      ],
+      "tel": "0539-4883554",
+      "address": "平邑县铜石镇驻地铜石派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.809Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局温水派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局温水派出所",
+      "phones": [
+        "0539-4883555"
+      ],
+      "tel": "0539-4883555",
+      "address": "平邑县温水镇人民政府西北50米（万平线东）温水派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.809Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局流峪派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局流峪派出所",
+      "phones": [
+        "0539-4883556"
+      ],
+      "tel": "0539-4883556",
+      "address": "平邑县流峪镇政府驻地流峪派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.809Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局郑城派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局郑城派出所",
+      "phones": [
+        "0539-4883557"
+      ],
+      "tel": "0539-4883557",
+      "address": "平邑县郑城镇驻地郑城派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.809Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局白彦派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局白彦派出所",
+      "phones": [
+        "0539-4883559"
+      ],
+      "tel": "0539-4883559",
+      "address": "平邑县白彦镇驻地白彦派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.809Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局临涧派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局临涧派出所",
+      "phones": [
+        "0539-4883560"
+      ],
+      "tel": "0539-4883560",
+      "address": "平邑县临涧镇驻地临涧派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.809Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局丰阳派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局丰阳派出所",
+      "phones": [
+        "0539-4883561"
+      ],
+      "tel": "0539-4883561",
+      "address": "平邑县丰阳镇驻地丰阳派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|平邑县|平邑县公安局柏林派出所",
+      "kind": "window",
+      "district": "平邑县",
+      "name": "平邑县公安局柏林派出所",
+      "phones": [
+        "0539-4883549"
+      ],
+      "tel": "0539-4883549",
+      "address": "平邑县柏林镇驻地",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.486,
+      "lng": 117.64,
+      "geo_provider": "district_approx",
+      "geo_address": "平邑县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局",
+      "phones": [
+        "0539-7224199"
+      ],
+      "tel": "0539-7224199",
+      "address": "莒南县人民路129号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局城东派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局城东派出所",
+      "phones": [
+        "0539-2077603"
+      ],
+      "tel": "0539-2077603",
+      "address": "莒南县天桥路150号城东派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局城西派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局城西派出所",
+      "phones": [
+        "0539-2077621"
+      ],
+      "tel": "0539-2077621",
+      "address": "莒南县滨海路77号城西派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局城北派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局城北派出所",
+      "phones": [
+        "0539-2077685"
+      ],
+      "tel": "0539-2077685",
+      "address": "莒南县庆丰路21号城北派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局城南派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局城南派出所",
+      "phones": [
+        "0539-2077651"
+      ],
+      "tel": "0539-2077651",
+      "address": "莒南县岚济路309号城南派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局开发区派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局开发区派出所",
+      "phones": [
+        "0539-2077705"
+      ],
+      "tel": "0539-2077705",
+      "address": "莒南县燕山路5号开发区派出所户籍室",
+      "note": "已修正区号",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局坊前派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局坊前派出所",
+      "phones": [
+        "0539-2077781"
+      ],
+      "tel": "0539-2077781",
+      "address": "莒南县坊前镇坊前大街5号坊前派出所",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局大店派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局大店派出所",
+      "phones": [
+        "0539-2077728"
+      ],
+      "tel": "0539-2077728",
+      "address": "莒南县大店镇清华苑南300米路东大店派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局涝坡派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局涝坡派出所",
+      "phones": [
+        "0539-2077911"
+      ],
+      "tel": "0539-2077911",
+      "address": "莒南县涝坡镇振兴路18号涝坡派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局文疃派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局文疃派出所",
+      "phones": [
+        "0539-2077769"
+      ],
+      "tel": "0539-2077769",
+      "address": "莒南县文疃镇文疃派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局筵宾派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局筵宾派出所",
+      "phones": [
+        "0539-2077829"
+      ],
+      "tel": "0539-2077829",
+      "address": "莒南县筵宾镇筵宾派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局道口派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局道口派出所",
+      "phones": [
+        "0539-2077916"
+      ],
+      "tel": "0539-2077916",
+      "address": "莒南县道口镇人民政府东邻道口派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.810Z"
+    },
+    {
+      "id": "window|莒南县|莒南县石莲子派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县石莲子派出所",
+      "phones": [
+        "0539-2077865"
+      ],
+      "tel": "0539-2077865",
+      "address": "莒南县石莲子镇石莲子派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局板泉派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局板泉派出所",
+      "phones": [
+        "0539-2077751"
+      ],
+      "tel": "0539-2077751",
+      "address": "莒南县板泉镇板泉派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局岭泉派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局岭泉派出所",
+      "phones": [
+        "0539-2077851"
+      ],
+      "tel": "0539-2077851",
+      "address": "莒南县岭泉镇岭中路岭泉派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局相沟派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局相沟派出所",
+      "phones": [
+        "0539-2077931"
+      ],
+      "tel": "0539-2077931",
+      "address": "莒南县相沟镇政府东侧十字路口向东50米路北相沟派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|莒南县|莒南县公安局洙边派出所",
+      "kind": "window",
+      "district": "莒南县",
+      "name": "莒南县公安局洙边派出所",
+      "phones": [
+        "0539-2077817"
+      ],
+      "tel": "0539-2077817",
+      "address": "莒南县洙边镇民主路3号洙边派出所户籍室",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局",
+      "phones": [
+        "0539-4818818"
+      ],
+      "tel": "0539-4818818",
+      "address": "蒙阴县蒙阴街道府东路2号户籍服务大厅",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局蒙城派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局蒙城派出所",
+      "phones": [
+        "0539-4818633"
+      ],
+      "tel": "0539-4818633",
+      "address": "蒙阴县恒昌路2号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局经济开发区派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局经济开发区派出所",
+      "phones": [
+        "0539-4818683"
+      ],
+      "tel": "0539-4818683",
+      "address": "蒙阴县汶河二路9号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局城郊派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局城郊派出所",
+      "phones": [
+        "0539-4818635"
+      ],
+      "tel": "0539-4818635",
+      "address": "蒙阴县新城西路11号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局旧寨派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局旧寨派出所",
+      "phones": [
+        "0539-4818640"
+      ],
+      "tel": "0539-4818640",
+      "address": "蒙阴县旧寨乡商业街2号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局坦埠派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局坦埠派出所",
+      "phones": [
+        "0539-4818644"
+      ],
+      "tel": "0539-4818644",
+      "address": "蒙阴县坦埠镇古城路21号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局岱崮派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局岱崮派出所",
+      "phones": [
+        "0539-4818650"
+      ],
+      "tel": "0539-4818650",
+      "address": "蒙阴县岱崮镇双拥路10号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局野店派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局野店派出所",
+      "phones": [
+        "0539-4818652"
+      ],
+      "tel": "0539-4818652",
+      "address": "蒙阴县野店镇墅河路110号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局高都派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局高都派出所",
+      "phones": [
+        "0539-4818654"
+      ],
+      "tel": "0539-4818654",
+      "address": "蒙阴县高都镇高都街16号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局常路派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局常路派出所",
+      "phones": [
+        "0539-4818659"
+      ],
+      "tel": "0539-4818659",
+      "address": "蒙阴县常路镇常兴路55号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局联城派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局联城派出所",
+      "phones": [
+        "0539-4818662"
+      ],
+      "tel": "0539-4818662",
+      "address": "蒙阴县联城镇金联路110号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙阴县公安局桃墟派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙阴县公安局桃墟派出所",
+      "phones": [
+        "0539-4818665"
+      ],
+      "tel": "0539-4818665",
+      "address": "蒙阴县桃墟镇兴桃路中段桃墟镇商业街51号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|孟良崮派出所（原界牌派出所）",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "孟良崮派出所（原界牌派出所）",
+      "phones": [
+        "0539-4818673"
+      ],
+      "tel": "0539-4818673",
+      "address": "蒙阴县垛庄镇孟良崮大街7号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.811Z"
+    },
+    {
+      "id": "window|蒙阴县|云蒙湖生态区派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "云蒙湖生态区派出所",
+      "phones": [
+        "0539-4818677"
+      ],
+      "tel": "0539-4818677",
+      "address": "蒙阴县云蒙湖生态区管理委员会云蒙路5-1号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.812Z"
+    },
+    {
+      "id": "window|蒙阴县|蒙山派出所",
+      "kind": "window",
+      "district": "蒙阴县",
+      "name": "蒙山派出所",
+      "phones": [
+        "0539-4818667"
+      ],
+      "tel": "0539-4818667",
+      "address": "蒙阴县桃墟镇花果庄村",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.812Z"
+    },
+    {
+      "id": "window|临沭县|临沭县公安局",
+      "kind": "window",
+      "district": "临沭县",
+      "name": "临沭县公安局",
+      "phones": [
+        "0539-6084380"
+      ],
+      "tel": "0539-6084380",
+      "address": "临沭县沭河西大街133号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|临沭县|临沭县公安局店头派出所",
+      "kind": "window",
+      "district": "临沭县",
+      "name": "临沭县公安局店头派出所",
+      "phones": [
+        "0539-6084567"
+      ],
+      "tel": "0539-6084567",
+      "address": "临沭县店头镇昌盛街回民中心小学东侧约150米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|临沭县|临沭县公安局石门派出所",
+      "kind": "window",
+      "district": "临沭县",
+      "name": "临沭县公安局石门派出所",
+      "phones": [
+        "0539-6084572"
+      ],
+      "tel": "0539-6084572",
+      "address": "临沭县石门镇马陵路2号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|临沭县|临沭县公安局城里派出所",
+      "kind": "window",
+      "district": "临沭县",
+      "name": "临沭县公安局城里派出所",
+      "phones": [
+        "0539-6084518"
+      ],
+      "tel": "0539-6084518",
+      "address": "临沭县临沭街道夏庄东街129号（临沭街道卫生院西200米）",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|临沭县|临沭县公安局青云派出所",
+      "kind": "window",
+      "district": "临沭县",
+      "name": "临沭县公安局青云派出所",
+      "phones": [
+        "0539-6084593"
+      ],
+      "tel": "0539-6084593",
+      "address": "临沭县225省道与李埠子街交叉口东南60米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|临沭县|临沭县公安局大兴派出所",
+      "kind": "window",
+      "district": "临沭县",
+      "name": "临沭县公安局大兴派出所",
+      "phones": [
+        "0539-6084575"
+      ],
+      "tel": "0539-6084575",
+      "address": "临沭县大兴镇蟠龙路镇政府北150米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|临沭县|临沭县公安局郑山派出所",
+      "kind": "window",
+      "district": "临沭县",
+      "name": "临沭县公安局郑山派出所",
+      "phones": [
+        "0539-6084555"
+      ],
+      "tel": "0539-6084555",
+      "address": "临沭县常林西大街119号郑山街道文明路1号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|临沭县|临沭县公安局曹庄派出所",
+      "kind": "window",
+      "district": "临沭县",
+      "name": "临沭县公安局曹庄派出所",
+      "phones": [
+        "0539-6084563"
+      ],
+      "tel": "0539-6084563",
+      "address": "临沭县曹庄镇驻地（司法所东邻）",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|临沭县|临沭县公安局蛟龙派出所",
+      "kind": "window",
+      "district": "临沭县",
+      "name": "临沭县公安局蛟龙派出所",
+      "phones": [
+        "0539-6084581"
+      ],
+      "tel": "0539-6084581",
+      "address": "临沭县蛟龙镇327国道北50米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|临沭县|临沭县公安局玉山派出所",
+      "kind": "window",
+      "district": "临沭县",
+      "name": "临沭县公安局玉山派出所",
+      "phones": [
+        "0539-6084583"
+      ],
+      "tel": "0539-6084583",
+      "address": "临沭县玉山镇中心中学北向西200米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|沂河新区|临沂市公安局沂河新区分局",
+      "kind": "window",
+      "district": "沂河新区",
+      "name": "临沂市公安局沂河新区分局",
+      "phones": [
+        "0539-8102492"
+      ],
+      "tel": "0539-8102492",
+      "address": "沂河新区温州路7号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.104,
+      "lng": 118.356,
+      "geo_provider": "district_approx",
+      "geo_address": "临沂市（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|沂河新区|芝麻墩派出所",
+      "kind": "window",
+      "district": "沂河新区",
+      "name": "芝麻墩派出所",
+      "phones": [
+        "0539-8102487"
+      ],
+      "tel": "0539-8102487",
+      "address": "沂河新区香港路与临工路交叉口东200米路北",
+      "note": "已补全区号",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.104,
+      "lng": 118.356,
+      "geo_provider": "district_approx",
+      "geo_address": "临沂市（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|沂河新区|梅家埠派出所",
+      "kind": "window",
+      "district": "沂河新区",
+      "name": "梅家埠派出所",
+      "phones": [
+        "0539-8892767"
+      ],
+      "tel": "0539-8892767",
+      "address": "沂河新区沃尔沃路与柳工路交叉口西400米路北",
+      "note": "已补全区号",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.104,
+      "lng": 118.356,
+      "geo_provider": "district_approx",
+      "geo_address": "临沂市（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|沂河新区|朝阳派出所",
+      "kind": "window",
+      "district": "沂河新区",
+      "name": "朝阳派出所",
+      "phones": [
+        "0539-8875110"
+      ],
+      "tel": "0539-8875110",
+      "address": "沂河新区朝阳街道327国道57号",
+      "note": "已补全区号",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.104,
+      "lng": 118.356,
+      "geo_provider": "district_approx",
+      "geo_address": "临沂市（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|沂河新区|醋庄派出所",
+      "kind": "window",
+      "district": "沂河新区",
+      "name": "醋庄派出所",
+      "phones": [
+        "0539-8102478"
+      ],
+      "tel": "0539-8102478",
+      "address": "沂河新区梅家埠办事处沭郯路向东800米路北",
+      "note": "已补全区号",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.104,
+      "lng": 118.356,
+      "geo_provider": "district_approx",
+      "geo_address": "临沂市（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|沂河新区|白沙埠派出所",
+      "kind": "window",
+      "district": "沂河新区",
+      "name": "白沙埠派出所",
+      "phones": [
+        "0539-8102446"
+      ],
+      "tel": "0539-8102446",
+      "address": "沂河新区白沙埠镇茶山五路与孝河五路交汇东北角",
+      "note": "已补全区号",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.104,
+      "lng": 118.356,
+      "geo_provider": "district_approx",
+      "geo_address": "临沂市（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|沂河新区|相公派出所",
+      "kind": "window",
+      "district": "沂河新区",
+      "name": "相公派出所",
+      "phones": [
+        "0539-8102492"
+      ],
+      "tel": "0539-8102492",
+      "address": "沂河新区相公办事处管仲路8号",
+      "note": "已补全区号",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.104,
+      "lng": 118.356,
+      "geo_provider": "district_approx",
+      "geo_address": "临沂市（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|沂河新区|凤凰岭派出所",
+      "kind": "window",
+      "district": "沂河新区",
+      "name": "凤凰岭派出所",
+      "phones": [
+        "0539-8102482"
+      ],
+      "tel": "0539-8102482",
+      "address": "沂河新区旦赵线与正大路交叉口西80米",
+      "note": "已补全区号",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.104,
+      "lng": 118.356,
+      "geo_provider": "district_approx",
+      "geo_address": "临沂市（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|高新区|临沂市公安局高新技术产业开发区分局",
+      "kind": "window",
+      "district": "高新区",
+      "name": "临沂市公安局高新技术产业开发区分局",
+      "phones": [
+        "0539-8102236"
+      ],
+      "tel": "0539-8102236",
+      "address": "高新区双月园路与科技大道交汇东南角",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.078,
+      "lng": 118.287,
+      "geo_provider": "district_approx",
+      "geo_address": "高新区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|高新区|开发区派出所",
+      "kind": "window",
+      "district": "高新区",
+      "name": "开发区派出所",
+      "phones": [
+        "0539-8102236"
+      ],
+      "tel": "0539-8102236",
+      "address": "高新区双月园路与科技大道交汇东南角",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.078,
+      "lng": 118.287,
+      "geo_provider": "district_approx",
+      "geo_address": "高新区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.813Z"
+    },
+    {
+      "id": "window|高新区|罗西派出所",
+      "kind": "window",
+      "district": "高新区",
+      "name": "罗西派出所",
+      "phones": [
+        "0539-8502110"
+      ],
+      "tel": "0539-8502110",
+      "address": "高新区湖北路与俄黄路交汇东300米路北",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.078,
+      "lng": 118.287,
+      "geo_provider": "district_approx",
+      "geo_address": "高新区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "window|高新区|马厂湖派出所",
+      "kind": "window",
+      "district": "高新区",
+      "name": "马厂湖派出所",
+      "phones": [
+        "0539-8529110"
+      ],
+      "tel": "0539-8529110",
+      "address": "高新区解放路与腾飞路交汇西50米路北",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.078,
+      "lng": 118.287,
+      "geo_provider": "district_approx",
+      "geo_address": "高新区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "window|临港区|临沂市公安局临港分局户政大厅",
+      "kind": "window",
+      "district": "临港区",
+      "name": "临沂市公安局临港分局户政大厅",
+      "phones": [
+        "0539-7261761"
+      ],
+      "tel": "0539-7261761",
+      "address": "临港区坪上镇振兴路",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.12,
+      "lng": 119.32,
+      "geo_provider": "district_approx",
+      "geo_address": "临港区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "window|临港区|坪上派出所",
+      "kind": "window",
+      "district": "临港区",
+      "name": "坪上派出所",
+      "phones": [
+        "0539-7261795"
+      ],
+      "tel": "0539-7261795",
+      "address": "临港区坪上镇黄海三路与坪壮路交汇处东300米路北",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.12,
+      "lng": 119.32,
+      "geo_provider": "district_approx",
+      "geo_address": "临港区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "window|临港区|团林派出所",
+      "kind": "window",
+      "district": "临港区",
+      "name": "团林派出所",
+      "phones": [
+        "0539-7261823"
+      ],
+      "tel": "0539-7261823",
+      "address": "临港区团林镇府前街7号",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.12,
+      "lng": 119.32,
+      "geo_provider": "district_approx",
+      "geo_address": "临港区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "window|临港区|壮岗派出所",
+      "kind": "window",
+      "district": "临港区",
+      "name": "壮岗派出所",
+      "phones": [
+        "0539-7261807"
+      ],
+      "tel": "0539-7261807",
+      "address": "临港区壮岗镇十字路口往北100米路东（乐尚超市对过）",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.12,
+      "lng": 119.32,
+      "geo_provider": "district_approx",
+      "geo_address": "临港区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "window|临港区|朱芦派出所",
+      "kind": "window",
+      "district": "临港区",
+      "name": "朱芦派出所",
+      "phones": [
+        "0539-7261853"
+      ],
+      "tel": "0539-7261853",
+      "address": "临港区朱芦镇中心小学东北侧约250米",
+      "note": "",
+      "services": "户籍窗口咨询预约",
+      "lat": 35.12,
+      "lng": 119.32,
+      "geo_provider": "district_approx",
+      "geo_address": "临港区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|兰山区|兰山公安分局北京路派出所",
+      "kind": "self",
+      "district": "兰山区",
+      "name": "兰山公安分局北京路派出所",
+      "phones": [
+        "0539-7305072"
+      ],
+      "tel": "0539-7305072",
+      "address": "兰山区北京路 19 号",
+      "note": "",
+      "services": "自助受理、发放居民身份证",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|兰山区|兰山公安分局南坊派出所",
+      "kind": "self",
+      "district": "兰山区",
+      "name": "兰山公安分局南坊派出所",
+      "phones": [
+        "0539-7303197"
+      ],
+      "tel": "0539-7303197",
+      "address": "兰山区沂山路 9 号",
+      "note": "",
+      "services": "自助受理、发放居民身份证",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|兰山区|兰山公安分局东关街派出所",
+      "kind": "self",
+      "district": "兰山区",
+      "name": "兰山公安分局东关街派出所",
+      "phones": [
+        "0539-7305007"
+      ],
+      "tel": "0539-7305007",
+      "address": "兰山区琅琊街 99 号",
+      "note": "",
+      "services": "自助拍照功能",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|兰山区|兰山公安分局沂州路派出所",
+      "kind": "self",
+      "district": "兰山区",
+      "name": "兰山公安分局沂州路派出所",
+      "phones": [
+        "0539-7305110"
+      ],
+      "tel": "0539-7305110",
+      "address": "兰山区兰山路 126 号",
+      "note": "",
+      "services": "自助拍照功能",
+      "lat": 35.051,
+      "lng": 118.348,
+      "geo_provider": "district_approx",
+      "geo_address": "兰山区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|罗庄区|罗庄智慧警局",
+      "kind": "self",
+      "district": "罗庄区",
+      "name": "罗庄智慧警局",
+      "phones": [
+        "0539-8345259",
+        "19853931908"
+      ],
+      "tel": "0539-8345259",
+      "address": "临沂市罗庄区湖北路 67 号罗庄公安局西门",
+      "note": "",
+      "services": "自助受理居民身份证",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|罗庄区|罗庄公安分局盛庄派出所",
+      "kind": "self",
+      "district": "罗庄区",
+      "name": "罗庄公安分局盛庄派出所",
+      "phones": [
+        "0539-8597110"
+      ],
+      "tel": "0539-8597110",
+      "address": "罗庄区罗四路 30 号",
+      "note": "",
+      "services": "自助受理居民身份证",
+      "lat": 34.997,
+      "lng": 118.285,
+      "geo_provider": "district_approx",
+      "geo_address": "罗庄区（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|沂南县|沂南县公安局城区派出所",
+      "kind": "self",
+      "district": "沂南县",
+      "name": "沂南县公安局城区派出所",
+      "phones": [
+        "0539-3775422"
+      ],
+      "tel": "0539-3775422",
+      "address": "沂南县团山路 36 号",
+      "note": "",
+      "services": "自助受理居民身份证",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|沂南县|沂南县公安局岸堤派出所",
+      "kind": "self",
+      "district": "沂南县",
+      "name": "沂南县公安局岸堤派出所",
+      "phones": [
+        "0539-3740018"
+      ],
+      "tel": "0539-3740018",
+      "address": "沂南县岸堤镇滨河路 3 号",
+      "note": "",
+      "services": "自助受理居民身份证",
+      "lat": 35.55,
+      "lng": 118.465,
+      "geo_provider": "district_approx",
+      "geo_address": "沂南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|郯城县|郯城县政务服务中心 3 楼公安专区",
+      "kind": "self",
+      "district": "郯城县",
+      "name": "郯城县政务服务中心 3 楼公安专区",
+      "phones": [
+        "0539-6221127"
+      ],
+      "tel": "0539-6221127",
+      "address": "",
+      "note": "",
+      "services": "自助受理居民身份证",
+      "lat": 34.614,
+      "lng": 118.367,
+      "geo_provider": "district_approx",
+      "geo_address": "郯城县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|沂水县|沂水公安智能服务厅",
+      "kind": "self",
+      "district": "沂水县",
+      "name": "沂水公安智能服务厅",
+      "phones": [
+        "0539-2274670"
+      ],
+      "tel": "0539-2274670",
+      "address": "沂水县沂城街道中心街 19 号便民服务中心",
+      "note": "",
+      "services": "自助受理居民身份证",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|沂水县|沂水县公安局马站派出所",
+      "kind": "self",
+      "district": "沂水县",
+      "name": "沂水县公安局马站派出所",
+      "phones": [
+        "0539-2274573"
+      ],
+      "tel": "0539-2274573",
+      "address": "沂水县马站镇健康东路 1 号",
+      "note": "",
+      "services": "自助发放居民身份证",
+      "lat": 35.787,
+      "lng": 118.628,
+      "geo_provider": "district_approx",
+      "geo_address": "沂水县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|兰陵县|兰陵县公安局东关派出所",
+      "kind": "self",
+      "district": "兰陵县",
+      "name": "兰陵县公安局东关派出所",
+      "phones": [
+        "17862280131"
+      ],
+      "tel": "17862280131",
+      "address": "兰陵县桃李路 3 号（卞庄街道办事处东邻）",
+      "note": "",
+      "services": "自助受理居民身份证",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|兰陵县|兰陵县公安局卞庄派出所",
+      "kind": "self",
+      "district": "兰陵县",
+      "name": "兰陵县公安局卞庄派出所",
+      "phones": [
+        "0539-5567493"
+      ],
+      "tel": "0539-5567493",
+      "address": "兰陵县诚信路 1 号",
+      "note": "",
+      "services": "自助受理居民身份证",
+      "lat": 34.857,
+      "lng": 118.071,
+      "geo_provider": "district_approx",
+      "geo_address": "兰陵县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.816Z"
+    },
+    {
+      "id": "self|莒南县|莒南县公安局大店派出所",
+      "kind": "self",
+      "district": "莒南县",
+      "name": "莒南县公安局大店派出所",
+      "phones": [
+        "0539-2077728"
+      ],
+      "tel": "0539-2077728",
+      "address": "莒南县大店镇清华苑南 300 米路东",
+      "note": "",
+      "services": "自助受理居民身份证",
+      "lat": 35.175,
+      "lng": 118.835,
+      "geo_provider": "district_approx",
+      "geo_address": "莒南县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.818Z"
+    },
+    {
+      "id": "self|蒙阴县|蒙阴县孟良崮派出所",
+      "kind": "self",
+      "district": "蒙阴县",
+      "name": "蒙阴县孟良崮派出所",
+      "phones": [
+        "0539-4818673"
+      ],
+      "tel": "0539-4818673",
+      "address": "蒙阴县垛庄镇孟良崮大街 7 号",
+      "note": "",
+      "services": "自助受理居民身份证",
+      "lat": 35.71,
+      "lng": 117.945,
+      "geo_provider": "district_approx",
+      "geo_address": "蒙阴县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.818Z"
+    },
+    {
+      "id": "self|临沭县|临沭县公安局城里派出所",
+      "kind": "self",
+      "district": "临沭县",
+      "name": "临沭县公安局城里派出所",
+      "phones": [
+        "0539-6084518"
+      ],
+      "tel": "0539-6084518",
+      "address": "临沭县夏庄东街 129 号",
+      "note": "",
+      "services": "自助受理、发放居民身份证",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.818Z"
+    },
+    {
+      "id": "self|临沭县|临沭县公安局郑山派出所",
+      "kind": "self",
+      "district": "临沭县",
+      "name": "临沭县公安局郑山派出所",
+      "phones": [
+        "0539-6084555"
+      ],
+      "tel": "0539-6084555",
+      "address": "临沭县郑山街道文明路 1 号",
+      "note": "",
+      "services": "自助受理、发放居民身份证、临时身份证明打印、联网查询更新",
+      "lat": 34.917,
+      "lng": 118.648,
+      "geo_provider": "district_approx",
+      "geo_address": "临沭县（区县中心近似，非门牌）",
+      "geocoded_at": "2026-08-07T16:24:47.818Z"
+    }
+  ],
+  "geocoded_at": "2026-08-07T16:38:35.502Z"
+}

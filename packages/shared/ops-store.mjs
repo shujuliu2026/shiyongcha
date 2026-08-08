@@ -10,6 +10,7 @@ import { fileURLToPath } from 'url'
 import { DEFAULT_TOOLS, defaultToolsById } from './tools-catalog.mjs'
 import { LOCAL_CATEGORIES, NATIONAL_CATEGORIES } from './tool-categories.mjs'
 import { analyticsSummary, todayShanghai } from './analytics-store.mjs'
+import { listDataRefreshRuns, listRefreshSchedule } from './data-refresh-log.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DIR = path.resolve(__dirname, '../../data/ops')
@@ -437,6 +438,14 @@ export function updateFeedbackStatus (id, status) {
  * 运营概览 KPI（常规运营看板）
  * @param {'today'|'7d'|'30d'} [range]
  */
+function rangeStartMs (range, todayDay) {
+  const end = new Date(`${todayDay}T23:59:59+08:00`).getTime()
+  if (range === '30d') return end - 30 * 86400000
+  if (range === '7d') return end - 7 * 86400000
+  // today
+  return new Date(`${todayDay}T00:00:00+08:00`).getTime()
+}
+
 export function opsOverview (range = 'today') {
   const analytics = analyticsSummary(range)
   const feedback = listFeedback({ limit: 5 })
@@ -446,6 +455,17 @@ export function opsOverview (range = 'today') {
   const feedbackToday = feedback.items.filter((x) => String(x.created_at || '').startsWith(day)).length
   // jsonl 全量再数今日（list 已截断时不准确）— 轻量重扫尾部
   let newOpen = feedback.counts.new || 0
+
+  const refreshAll = listDataRefreshRuns({ limit: 200 }).items
+  const startMs = rangeStartMs(range, day)
+  const refreshInRange = refreshAll.filter((r) => {
+    const t = new Date(r.finished_at || r.started_at || 0).getTime()
+    return Number.isFinite(t) && t >= startMs
+  })
+  const refreshSchedule = listRefreshSchedule()
+  const dueCount = (refreshSchedule.items || []).filter((j) => j.due).length
+  const sumField = (key) =>
+    refreshInRange.reduce((n, r) => n + (Number(r.summary?.[key]) || 0), 0)
 
   return {
     range,
@@ -473,6 +493,18 @@ export function opsOverview (range = 'today') {
       total: feedback.counts.total,
       today_sample: feedbackToday,
       recent: feedback.items.slice(0, 5)
+    },
+    refresh: {
+      runs: refreshInRange.length,
+      ok: refreshInRange.filter((r) => r.status === 'ok').length,
+      noop: refreshInRange.filter((r) => r.status === 'noop').length,
+      error: refreshInRange.filter((r) => r.status === 'error').length,
+      added: sumField('added'),
+      removed: sumField('removed'),
+      changed: sumField('changed'),
+      due: dueCount,
+      schedule_total: (refreshSchedule.items || []).length,
+      recent: refreshInRange.slice(0, 8)
     },
     generated_at: nowIso()
   }

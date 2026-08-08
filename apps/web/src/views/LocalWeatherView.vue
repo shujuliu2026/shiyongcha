@@ -2,6 +2,7 @@
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { useTyphoonRadar } from '../composables/useTyphoonRadar.js'
 
 const {
@@ -73,6 +74,7 @@ onUnmounted(() => {
     <SubNav title="临沂天气" />
     <div class="page__body">
       <p class="lead">默认临沂 · 一周预报为主 · 台风距离捎带提示</p>
+      <p><CorrectBtn item="临沂天气" :compact="false" /></p>
 
       <section
         v-if="today"

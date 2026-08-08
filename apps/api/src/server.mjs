@@ -29,6 +29,12 @@ import {
   patchDataSource,
   touchDataSource
 } from '../../../packages/shared/data-sources.mjs'
+import {
+  getDataRefreshRun,
+  listDataRefreshRuns,
+  listRefreshSchedule,
+  syncGenerateLocalSources
+} from '../../../packages/shared/data-refresh-log.mjs'
 import { APP_CONFIG } from '../../../packages/shared/config.mjs'
 import { LICENSE_PLANS, LICENSE_PRICE_COPY, getSupportConfig } from '../../../packages/shared/license-config.mjs'
 import {
@@ -61,6 +67,9 @@ import {
   enrichItemsWithGeo,
   geoMeta,
   geocodeBankBranch,
+  geocodeAmap,
+  approxDistrictPoint,
+  amapConfigured,
   loadGeoCache
 } from '../../../packages/shared/linyi-bank-geo.mjs'
 import { enrichPlaceItem, placeEnrichMeta } from '../../../packages/shared/place-enrich.mjs'
@@ -660,13 +669,86 @@ async function handleRequest (url, req, body = {}) {
   if (method === 'GET' && pathname === '/api/v1/admin/sources') {
     try {
       requireAdmin(req)
+      const body = listDataSources({
+        mode: url.searchParams.get('mode') || '',
+        q: url.searchParams.get('q') || ''
+      })
+      const recent = listDataRefreshRuns({ limit: 200 }).items
+      /** @type {Record<string, string>} */
+      const lastMap = {}
+      for (const r of recent) {
+        if (!lastMap[r.source_id] && r.status !== 'error') {
+          lastMap[r.source_id] = r.finished_at || r.started_at
+        }
+      }
+      body.sources = (body.sources || []).map((s) => ({
+        ...s,
+        last_refresh_at: lastMap[s.id] || null
+      }))
+      body.legend = {
+        ...(body.legend || {}),
+        history:
+          '更新留痕：npm run refresh:record -- --source <id> -- <命令>；定时 npm run refresh:due（任务计划每小时）'
+      }
       return {
         status: 200,
         headers: { 'Cache-Control': 'no-store' },
-        body: listDataSources({
-          mode: url.searchParams.get('mode') || '',
-          q: url.searchParams.get('q') || ''
-        })
+        body
+      }
+    } catch (e) {
+      return adminError(e)
+    }
+  }
+
+  if (method === 'GET' && pathname === '/api/v1/admin/refresh-history') {
+    try {
+      requireAdmin(req)
+      return {
+        status: 200,
+        headers: { 'Cache-Control': 'no-store' },
+        body: {
+          ...listDataRefreshRuns({
+            source_id: url.searchParams.get('source_id') || '',
+            status: url.searchParams.get('status') || '',
+            limit: Number(url.searchParams.get('limit') || 50)
+          }),
+          schedule: listRefreshSchedule()
+        }
+      }
+    } catch (e) {
+      return adminError(e)
+    }
+  }
+
+  if (method === 'GET' && /^\/api\/v1\/admin\/refresh-history\/[^/]+$/.test(pathname)) {
+    try {
+      requireAdmin(req)
+      const runId = decodeURIComponent(pathname.split('/')[5] || '')
+      const sourceId = url.searchParams.get('source_id') || ''
+      return {
+        status: 200,
+        headers: { 'Cache-Control': 'no-store' },
+        body: getDataRefreshRun(runId, sourceId)
+      }
+    } catch (e) {
+      return adminError(e)
+    }
+  }
+
+  if (method === 'POST' && pathname === '/api/v1/admin/refresh-sync') {
+    try {
+      requireAdmin(req)
+      const result = syncGenerateLocalSources({
+        note: String(body?.note || '同步生成基线'),
+        sourceIds: Array.isArray(body?.source_ids) ? body.source_ids : undefined
+      })
+      return {
+        status: 200,
+        headers: { 'Cache-Control': 'no-store' },
+        body: {
+          ...result,
+          overview: opsOverview(/** @type {'today'|'7d'|'30d'} */ (url.searchParams.get('range') || 'today'))
+        }
       }
     } catch (e) {
       return adminError(e)
@@ -828,6 +910,85 @@ async function handleRequest (url, req, body = {}) {
     }
   }
 
+  if (method === 'POST' && pathname === '/api/v1/local/hukou-windows/geocode') {
+    try {
+      const id = String(body.id || '').trim()
+      if (!id) {
+        return { status: 400, body: { error: 'id_required' } }
+      }
+      const city = String(body.city || APP_CONFIG.defaultCity.id || 'linyi')
+        .toLowerCase()
+        .replace(/[^a-z0-9_-]/g, '')
+      const fp = path.join(DATA_LOCAL, city, 'hukou-windows.json')
+      if (!fs.existsSync(fp)) {
+        return { status: 404, body: { error: 'hukou_file_missing' } }
+      }
+      const data = JSON.parse(fs.readFileSync(fp, 'utf8'))
+      const items = Array.isArray(data.items) ? data.items : []
+      const idx = items.findIndex((it) => String(it.id) === id)
+      if (idx < 0) {
+        return { status: 404, body: { error: 'item_not_found' } }
+      }
+      const it = items[idx]
+      const force = body.force === true || body.force === '1'
+      if (!force && it.lat != null && it.lng != null) {
+        return {
+          status: 200,
+          body: {
+            ok: true,
+            id: it.id,
+            lat: it.lat,
+            lng: it.lng,
+            geo_provider: it.geo_provider,
+            geo_address: it.geo_address,
+            geocoded_at: it.geocoded_at,
+            cached: true
+          }
+        }
+      }
+      const q = [it.name, it.address, it.district, '临沂'].filter(Boolean).join(' ')
+      let point = null
+      if (amapConfigured() && q) {
+        try {
+          point = await geocodeAmap(q, '临沂')
+        } catch {
+          point = null
+        }
+      }
+      if (!point) point = approxDistrictPoint(it.district || it.name || '临沂市')
+      it.lat = point.lat
+      it.lng = point.lng
+      it.geo_provider = point.provider
+      it.geo_address = point.address || point.name_matched || ''
+      it.geocoded_at = point.updated_at || new Date().toISOString()
+      data.geo_ok = items.filter((x) => x.lat != null && x.lng != null).length
+      data.geocoded_at = new Date().toISOString()
+      fs.writeFileSync(fp, `${JSON.stringify(data, null, 2)}\n`, 'utf8')
+      return {
+        status: 200,
+        body: {
+          ok: true,
+          id: it.id,
+          lat: it.lat,
+          lng: it.lng,
+          geo_provider: it.geo_provider,
+          geo_address: it.geo_address,
+          geocoded_at: it.geocoded_at,
+          cached: false,
+          amap_configured: amapConfigured()
+        }
+      }
+    } catch (e) {
+      return {
+        status: e?.status || 502,
+        body: {
+          error: e?.message || 'hukou_geocode_failed',
+          message: e?.message || String(e)
+        }
+      }
+    }
+  }
+
   // --- local bus GPS (临沂开放网) ---
   if (method === 'GET' && pathname === '/api/v1/local/bus/status') {
     return {
@@ -943,7 +1104,9 @@ async function handleRequest (url, req, body = {}) {
     '/api/v1/local/skill-subsidy': 'skill-subsidy-offices.json',
     '/api/v1/local/edu-bases': 'edu-bases.json',
     '/api/v1/local/agri-prod': 'agri-production.json',
-    '/api/v1/local/open-data-inventory': 'open-data-inventory.json'
+    '/api/v1/local/open-data-inventory': 'open-data-inventory.json',
+    '/api/v1/local/old-photos': 'old-photos.json',
+    '/api/v1/local/hukou-windows': 'hukou-windows.json'
   }
   if (localRoutes[pathname]) {
     try {

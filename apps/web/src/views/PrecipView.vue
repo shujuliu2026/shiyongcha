@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const CITIES = [
@@ -92,6 +93,7 @@ onMounted(() => {
         山东省 109 站降水量（公共数据开放网）。目录含历史样本，非短临预报。
         <template v-if="meta && !meta.configured">请配置 <code>SD_OPEN_CLIENT_*</code>。</template>
       </p>
+      <p><CorrectBtn item="降水量" :compact="false" /></p>
 
       <div class="env-chips" aria-label="地市">
         <button

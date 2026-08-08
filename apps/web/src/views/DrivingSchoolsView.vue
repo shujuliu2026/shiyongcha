@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const PAGE_SIZE = 40
@@ -128,6 +129,7 @@ onMounted(() => {
                 {{ enriching === item.id ? '补全中…' : '联网补全地址' }}
               </button>
               <a class="btn btn--ghost" :href="mapsLink(item)" target="_blank" rel="noopener">地图</a>
+              <CorrectBtn :item="item.name" :hint="`${item.district || ''} ${item.address || ''}`" />
             </div>
           </div>
         </li>

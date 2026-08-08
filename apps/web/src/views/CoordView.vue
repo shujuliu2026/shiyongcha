@@ -1,6 +1,7 @@
 <script setup>
 import { computed, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import {
   COORD_SYSTEMS,
   convertCoord,
@@ -86,6 +87,7 @@ function useLinyiGps () {
     <SubNav title="坐标转换" />
     <div class="page__body">
       <p class="lead">WGS84（GPS）· GCJ02（高德/国测局）· BD09（百度）互转，可算偏移距离。</p>
+      <p><CorrectBtn item="坐标转换" :compact="false" /></p>
 
       <div class="form form--bank">
         <label>

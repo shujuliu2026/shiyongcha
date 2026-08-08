@@ -352,6 +352,12 @@ watch([watchLat, watchLng, alertKm], () => syncWatchLayers())
         </div>
       </div>
       <div class="top__actions">
+        <RouterLink
+          class="btn btn--ghost"
+          :to="{ path: '/feedback', query: { type: 'content', from: '/weather', item: '台风天气' } }"
+        >
+          纠错
+        </RouterLink>
         <button type="button" class="btn btn--ghost" @click="onShare">分享</button>
         <RouterLink
           v-if="fromLocal"

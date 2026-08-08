@@ -11,7 +11,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DIR = path.resolve(__dirname, '../../data/analytics')
 const DAILY = path.join(DIR, 'daily.json')
 
-const ALLOWED_HOOKS = new Set(['page.view', 'tool.click', 'search.query', 'page.share'])
+const ALLOWED_HOOKS = new Set([
+  'page.view',
+  'tool.click',
+  'search.query',
+  'page.share',
+  'suite_card_impression',
+  'suite_card_click'
+])
 const MAX_BATCH = 40
 const RATE_WINDOW_MS = 60_000
 const RATE_MAX = 120

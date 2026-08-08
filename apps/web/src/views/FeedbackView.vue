@@ -35,12 +35,25 @@ async function submit () {
 onMounted(() => {
   const t = String(route.query.type || '')
   if (['bug', 'suggest', 'content', 'other'].includes(t)) type.value = t
+
+  const item = String(route.query.item || '').trim()
+  const hint = String(route.query.hint || '').trim()
+  const from = String(route.query.from || '').trim()
+  if (item || hint) {
+    type.value = 'content'
+    const lines = []
+    if (from) lines.push(`【页面】${from}`)
+    if (item) lines.push(`【条目】${item}`)
+    if (hint) lines.push(`【原文】${hint}`)
+    lines.push('【纠错说明】')
+    content.value = lines.join('\n')
+  }
 })
 </script>
 
 <template>
   <div class="page">
-    <SubNav title="意见反馈" />
+    <SubNav title="意见反馈" :correct="false" />
     <div class="page__body">
       <p class="lead">功能建议、内容纠错或合作联系 · 运营后台可查收处理</p>
 

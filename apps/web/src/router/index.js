@@ -20,6 +20,12 @@ const routes = [
     meta: toolMeta('历史上的今天', '📜')
   },
   {
+    path: '/old-photos',
+    name: 'old-photos',
+    component: () => import('../views/OldPhotosView.vue'),
+    meta: toolMeta('临沂旧时光', '📷')
+  },
+  {
     path: '/admin',
     name: 'admin',
     component: () => import('../views/AdminView.vue'),
@@ -60,6 +66,12 @@ const routes = [
     name: 'guides',
     component: () => import('../views/GuidesView.vue'),
     meta: toolMeta('办事指南', '📋')
+  },
+  {
+    path: '/hukou',
+    name: 'hukou',
+    component: () => import('../views/HukouView.vue'),
+    meta: toolMeta('户籍电话', '🪪')
   },
   {
     path: '/official-nav',
@@ -219,6 +231,12 @@ const routes = [
     meta: toolMeta('地震通报', '🏔️')
   },
   {
+    path: '/suite',
+    name: 'suite',
+    component: () => import('../views/SuiteView.vue'),
+    meta: toolMeta('随用宝系列', '📦')
+  },
+  {
     path: '/about',
     name: 'about',
     component: () => import('../views/AboutView.vue'),
@@ -227,7 +245,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior () {
     return { top: 0 }

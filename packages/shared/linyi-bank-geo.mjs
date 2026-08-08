@@ -68,6 +68,11 @@ export function amapConfigured () {
   return Boolean(String(process.env.AMAP_WEB_KEY || process.env.AMAP_KEY || '').trim())
 }
 
+/** 区县中心近似坐标（WGS84） */
+export function approxDistrictPoint (districtOrName) {
+  return approxFromDistrict(districtOrName)
+}
+
 export function geoMeta () {
   const cache = loadGeoCache()
   return {
@@ -194,10 +199,11 @@ export async function geocodeAmap (name, city = '临沂', opts = {}) {
     String(poi.address || '').trim() ||
     addrParts.join('') ||
     String(poi.name || '').trim()
-  const tel = String(poi.tel || poi.phone || '')
-    .split(';')[0]
-    .split(',')[0]
-    .trim()
+  const telList = String(poi.tel || poi.phone || '')
+    .split(/[;；,，|/]/)
+    .map((s) => s.trim())
+    .filter((s) => s && !/\*{2,}/.test(s) && !/^\*+$/.test(s))
+  const tel = telList[0] || ''
 
   return {
     lat,
@@ -207,10 +213,35 @@ export async function geocodeAmap (name, city = '临沂', opts = {}) {
     address,
     district: String(poi.adname || '').trim(),
     name_matched: String(poi.name || ''),
-    tel: tel && !/^\*+$/.test(tel) ? tel : '',
+    tel,
+    tels: telList,
     provider: 'amap',
     updated_at: new Date().toISOString()
   }
+}
+
+/**
+ * 从 POI 多电话中选号。
+ * 有脱敏尾号时：必须尾号一致才采纳（避免张冠李戴）。
+ * 无脱敏尾号时：取第一个可用号码。
+ * @param {string|string[]} tels
+ * @param {string} [phoneRaw]
+ * @param {{ requireMaskMatch?: boolean }} [opts]
+ */
+export function pickTelMatchingMask (tels, phoneRaw = '', opts = {}) {
+  const list = (Array.isArray(tels) ? tels : String(tels || '').split(/[;；,，|/]/))
+    .map((s) => String(s || '').trim())
+    .filter((s) => s && !/\*{2,}/.test(s))
+  if (!list.length) return ''
+  const rawDigits = String(phoneRaw || '').replace(/\D/g, '')
+  const last4 = rawDigits.length >= 4 ? rawDigits.slice(-4) : ''
+  const requireMask = opts.requireMaskMatch !== false && Boolean(last4)
+  if (last4) {
+    const hit = list.find((t) => t.replace(/\D/g, '').endsWith(last4))
+    if (hit) return hit
+    if (requireMask) return ''
+  }
+  return list[0]
 }
 
 /**

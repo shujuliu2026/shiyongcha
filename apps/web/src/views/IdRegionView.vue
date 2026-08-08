@@ -2,6 +2,7 @@
 import { onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const route = useRoute()
@@ -58,6 +59,7 @@ onMounted(() => {
     <SubNav title="身份证归属" share-desc="区划归属 · 校验位 · 出生日期" />
     <div class="page__body">
       <p class="lead">解析行政区划归属、出生日期与性别位 · 本地校验，不联网核验身份</p>
+      <p><CorrectBtn item="身份证归属" :compact="false" /></p>
 
       <div class="form form--stack">
         <label>

@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -38,6 +39,7 @@ onMounted(() => {
       <article v-for="g in data?.categories || []" :key="g.title" class="guide-card">
         <h2 class="guide-card__title">{{ g.title }}</h2>
         <p class="guide-card__summary">{{ g.summary }}</p>
+        <p style="margin:8px 0 0"><CorrectBtn :item="g.title" :hint="g.summary || ''" /></p>
         <ol class="guide-card__steps">
           <li v-for="(step, i) in g.steps" :key="i">{{ step }}</li>
         </ol>

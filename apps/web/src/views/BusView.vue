@@ -2,6 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const plate = ref('')
@@ -93,6 +94,7 @@ onMounted(() => {
         ·
         <RouterLink to="/bus-shelters">站亭位置</RouterLink>
       </p>
+      <p><CorrectBtn item="临沂公交GPS" :compact="false" /></p>
 
       <section class="lic-card">
         <h2 class="page__h2">接入状态</h2>

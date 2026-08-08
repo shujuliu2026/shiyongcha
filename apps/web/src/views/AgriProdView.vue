@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -105,6 +106,7 @@ onMounted(() => {
             <span>产量 <b>{{ fmt(item.total_ton) }}</b> 吨</span>
             <span>面积 <b>{{ fmt(item.area_mu, 1) }}</b> 亩</span>
             <span>单产 <b>{{ fmt(item.yield_kg_mu) }}</b> 公斤/亩</span>
+            <CorrectBtn :item="`${item.district} ${item.kind_label || ''}`" :hint="String(item.year || '')" />
           </div>
         </li>
       </ul>

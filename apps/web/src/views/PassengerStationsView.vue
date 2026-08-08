@@ -2,6 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -99,6 +100,7 @@ onMounted(() => {
                 {{ enriching === item.id ? '补全中…' : '联网补全地址' }}
               </button>
               <a class="btn btn--ghost" :href="mapsLink(item)" target="_blank" rel="noopener">地图</a>
+              <CorrectBtn :item="item.name" :hint="item.address || item.address_hint || ''" />
             </div>
           </div>
         </li>

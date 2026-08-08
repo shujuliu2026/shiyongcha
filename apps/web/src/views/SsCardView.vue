@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -36,6 +37,15 @@ const filtered = computed(() => {
     return blob.includes(keyword)
   })
 })
+
+const phoneOk = computed(
+  () => (data.value?.items || []).filter((it) => it.phone && !/\*{2,}/.test(it.phone)).length
+)
+
+function telHref (phone) {
+  const digits = String(phone || '').replace(/[^\d+]/g, '')
+  return digits ? `tel:${digits}` : ''
+}
 
 async function enrichOne (item) {
   enriching.value = item.id
@@ -79,7 +89,8 @@ onMounted(() => {
     <SubNav title="社保卡制卡网点" />
     <div class="page__body">
       <p class="lead">
-        社保卡即时制卡网点 · {{ data?.count || '—' }} 处（人社社保类）。电话/地址多为脱敏，可单条联网补全。
+        社保卡即时制卡网点 · {{ data?.count || '—' }} 处（人社社保类）。
+        有电话 {{ phoneOk }} · 办理前请再确认网点状态。
       </p>
 
       <div class="form form--bank">
@@ -110,8 +121,12 @@ onMounted(() => {
           <div class="batch-list__hit">
             <span v-if="item.address">{{ item.address }}</span>
             <span v-else class="muted">地址脱敏 · {{ item.address_hint || item.address_raw || '—' }}</span>
-            <span v-if="item.phone" class="muted">{{ item.phone }}</span>
-            <span v-else class="muted">电话脱敏</span>
+            <span v-if="item.phone">
+              电话
+              <a v-if="telHref(item.phone)" class="tel" :href="telHref(item.phone)">{{ item.phone }}</a>
+              <span v-else>{{ item.phone }}</span>
+            </span>
+            <span v-else class="muted">电话暂缺{{ item.phone_raw ? ` · 原表 ${item.phone_raw}` : '' }}</span>
             <div class="row">
               <button
                 v-if="!item.address"
@@ -130,7 +145,16 @@ onMounted(() => {
               >
                 复制地址
               </button>
+              <button
+                v-if="item.phone"
+                type="button"
+                class="btn btn--ghost"
+                @click="copyText(item.phone)"
+              >
+                复制电话
+              </button>
               <a class="btn btn--ghost" :href="mapsLink(item)" target="_blank" rel="noopener">地图</a>
+              <CorrectBtn :item="item.name" :hint="`${item.bank || ''} ${item.address || item.address_hint || ''} ${item.phone || ''}`" />
             </div>
           </div>
         </li>

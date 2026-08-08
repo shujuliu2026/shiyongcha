@@ -2,6 +2,7 @@
 import { computed, onMounted, ref, watch } from 'vue'
 import { RouterLink } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const PAGE_SIZE = 40
@@ -159,6 +160,7 @@ onMounted(() => {
                 复制位置
               </button>
               <a class="btn btn--ghost" :href="mapsLink(item)" target="_blank" rel="noopener">地图</a>
+              <CorrectBtn :item="item.name || item.address" :hint="`${item.road || ''} ${item.address || ''}`" />
             </div>
           </div>
         </li>

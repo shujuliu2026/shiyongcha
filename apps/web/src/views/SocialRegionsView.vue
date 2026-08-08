@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -95,6 +96,7 @@ onMounted(() => {
               }}
             </span>
             <button type="button" class="btn btn--ghost" @click="copyText(item.code)">复制编码</button>
+            <CorrectBtn :item="`${item.name} ${item.code}`" :hint="item.agency || ''" />
           </div>
         </li>
       </ul>

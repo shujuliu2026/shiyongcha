@@ -286,10 +286,10 @@ const payload = {
   masked_phone_count: items.filter((x) => !x.phone).length,
   enriched_ok: items.filter((x) => x.address && x.address_source && x.address_source !== 'open_data').length,
   enriched_at: new Date().toISOString(),
-  enrich_hint: '开放网电话脱敏；地址已尽量联网/公开渠道补全',
+  enrich_hint: '电话可用 npm run enrich:training-phones 经高德补全；地址已尽量联网/公开渠道补全',
   items,
   disclaimer:
-    '机构名录以开放网《职业培训机构目录》为准；脱敏电话/地址经联网或公开渠道补充，可能滞后，报名/办班请以机构与人社部门公示为准。'
+    '机构名录以开放网《职业培训机构目录》为准；电话/地址经联网或公开渠道补充，可能滞后，报名/办班请以机构与人社部门公示为准。'
 }
 
 // strip helper field

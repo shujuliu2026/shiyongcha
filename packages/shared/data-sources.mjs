@@ -232,6 +232,16 @@ export const DEFAULT_DATA_SOURCES = [
     note: '地方史条目人工增补'
   },
   {
+    id: 'old-photos-curated',
+    title: '临沂旧时光精选镜像',
+    tool_ids: ['old-photos'],
+    kind: 'static',
+    update_mode: 'manual',
+    file_path: 'data/local/linyi/old-photos.json',
+    portal: 'https://www.linyilu.com/atlas',
+    note: '精选缩略图指向临忆录 assets；完整图集/投稿外链主站'
+  },
+  {
     id: 'hospitals-json',
     title: '临沂医院速查',
     tool_ids: ['hospitals'],
@@ -248,6 +258,15 @@ export const DEFAULT_DATA_SOURCES = [
     update_mode: 'manual',
     file_path: 'data/local/linyi/hotlines.json',
     note: '热线号码变更时更新'
+  },
+  {
+    id: 'hukou-windows-json',
+    title: '临沂户籍窗口与自助点',
+    tool_ids: ['hukou'],
+    kind: 'static',
+    update_mode: 'manual',
+    file_path: 'data/local/linyi/hukou-windows.json',
+    note: 'npm run import:hukou · 原始资料户籍窗口 xlsx + 自助 csv'
   },
   {
     id: 'districts-json',
@@ -326,7 +345,18 @@ export const DEFAULT_DATA_SOURCES = [
     file_path: 'data/local/linyi/training-orgs.json',
     portal: 'http://lydata.sd.gov.cn/',
     env_keys: ['AMAP_WEB_KEY'],
-    note: '电话/地址脱敏；npm run enrich:places -- training'
+    note: '电话/地址脱敏；npm run enrich:places -- training · 更新请走 npm run refresh:record'
+  },
+  {
+    id: 'ss-card-outlets-json',
+    title: '临沂社保卡制卡网点',
+    tool_ids: ['ss-card'],
+    kind: 'static',
+    update_mode: 'manual',
+    file_path: 'data/local/linyi/ss-card-outlets.json',
+    portal: 'http://lydata.sd.gov.cn/',
+    env_keys: ['AMAP_WEB_KEY'],
+    note: '即时制卡网点；npm run writeback:ss-card [-- --phones] · 更新请走 npm run refresh:record'
   },
   {
     id: 'official-nav-links',

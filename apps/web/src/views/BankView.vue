@@ -2,6 +2,7 @@
 import { computed, nextTick, onMounted, ref, watch } from 'vue'
 import { RouterLink, useRoute, useRouter } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import BankMap from '../components/BankMap.vue'
 import { apiUrl } from '../utils/api.js'
 import { useLicense } from '../composables/useLicense.js'
@@ -234,6 +235,7 @@ onMounted(async () => {
         <RouterLink to="/bank/batch">批量查询</RouterLink>
         <template v-if="hasLicense"> · 许可证 {{ statusLabel }}</template>。
       </p>
+      <p><CorrectBtn :item="localMode ? '临沂银行网点' : '银行支行编码'" :compact="false" /></p>
 
       <section v-if="localMode" class="lic-card">
         <h2 class="page__h2">地图</h2>

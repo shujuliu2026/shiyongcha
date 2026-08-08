@@ -2,6 +2,7 @@
 import { onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -42,6 +43,7 @@ onMounted(() => {
         IC 卡网点见 <RouterLink to="/bus-ic">办理/充值网点</RouterLink>；
         站亭见 <RouterLink to="/bus-shelters">位置普查</RouterLink>。
       </p>
+      <p><CorrectBtn item="出行提示" :compact="false" /></p>
       <p v-if="loading" class="muted">加载中…</p>
       <p v-if="error" class="err">{{ error }}</p>
 

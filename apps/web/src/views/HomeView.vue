@@ -2,8 +2,15 @@
 import { computed, onMounted, ref, watch } from 'vue'
 import { RouterLink } from 'vue-router'
 import TickerBar from '../components/TickerBar.vue'
-import { listRecentTools } from '../composables/useAnalytics.js'
+import { listRecentTools, trackEvent } from '../composables/useAnalytics.js'
 import { buildShareText, sharePage } from '../composables/useShare.js'
+import {
+  SUITE_BRAND,
+  SUITE_HUB_URL,
+  SUITE_INTRO,
+  SUITE_TAGLINE,
+  SUITE_TOOLS
+} from '../data/suiteTools.js'
 import { apiUrl } from '../utils/api.js'
 import { fetchCatalog, fetchNotices } from '../composables/useOpsPublic.js'
 
@@ -36,15 +43,54 @@ const notices = ref([])
 const catalogError = ref('')
 
 const LOCAL_CAT_FALLBACK = [
-  { id: 'social', label: '人社社保', hint: '区划 · 培训 · 社保卡' },
+  { id: 'social', label: '人社社保', hint: '区划 · 培训 · 户籍电话' },
   { id: 'transit', label: '出行交通', hint: '公交 · 场站 · 驾校' },
-  { id: 'life', label: '生活便民', hint: '医院 · 电话 · 邮编' },
+  { id: 'life', label: '生活便民', hint: '医院 · 电话 · 邮编 · 旧时光' },
   { id: 'agriculture', label: '农业行情', hint: '蔬菜 · 夏粮 · 秋粮' },
   { id: 'weather', label: '气象环境', hint: '天气 · 空气' },
   { id: 'finance', label: '金融银行', hint: '本地网点' }
 ]
 
 const NATIONAL_CAT = { id: 'national', label: '全国工具', hint: '联行号 · 油价 · 台风' }
+const SUITE_CAT = { id: 'suite', label: '桌面软件', hint: '截图 · IMA · 备份' }
+
+/** 首页置顶：截图工具、IMA 同步插件 */
+const SUITE_FEATURED_IDS = ['snipdesk', 'ima-sync']
+
+const suiteFeatured = SUITE_FEATURED_IDS
+  .map((id) => SUITE_TOOLS.find((t) => t.id === id))
+  .filter(Boolean)
+
+const suitePreview = [
+  ...suiteFeatured,
+  ...SUITE_TOOLS.filter((t) => !SUITE_FEATURED_IDS.includes(t.id)).slice(0, 4)
+]
+
+function suiteShortName (name) {
+  return String(name || '')
+    .replace(/^随用宝-/, '')
+}
+
+function suiteHubHost () {
+  try {
+    return new URL(SUITE_HUB_URL).host
+  } catch {
+    return 'linyilu.com'
+  }
+}
+
+function trackSuiteHome (hook, suiteId) {
+  trackEvent({
+    feature_hook: hook,
+    path: '/',
+    title: `suite_id=${suiteId}|placement=home_suite|download_url=${suiteHubHost()}`
+  })
+}
+
+function openSuiteHub (suiteId = 'hub_more') {
+  trackSuiteHome('suite_card_click', suiteId)
+  window.open(SUITE_HUB_URL, '_blank', 'noopener,noreferrer')
+}
 
 function matchTool (t, keyword) {
   if (!keyword) return true
@@ -68,14 +114,19 @@ const categoryTabs = computed(() => {
     }))
     .filter((c) => c.count > 0 || !keyword.value)
 
+  const suiteMatch = matchSuiteKeyword(keyword.value)
+
   const tabs = [
     {
       id: 'all',
       label: '全部',
       hint: '',
-      count: filteredLocal.value.length + filteredNational.value.length
+      count: filteredLocal.value.length + filteredNational.value.length + (suiteMatch ? SUITE_TOOLS.length : 0)
     },
     ...locals.filter((c) => c.count > 0),
+    ...(suiteMatch
+      ? [{ id: 'suite', label: SUITE_CAT.label, hint: SUITE_CAT.hint, count: SUITE_TOOLS.length }]
+      : []),
     ...(filteredNational.value.length
       ? [{ id: 'national', label: NATIONAL_CAT.label, hint: NATIONAL_CAT.hint, count: filteredNational.value.length }]
       : [])
@@ -83,46 +134,59 @@ const categoryTabs = computed(() => {
   return tabs
 })
 
-/** 当前可见的分组：同类分在一起 */
-const visibleGroups = computed(() => {
+function matchSuiteKeyword (kw) {
+  if (!kw) return true
+  const hay = `${SUITE_BRAND} 桌面软件 下载 备份 截图 cursor trae ima snipdesk 随用 同步 插件 obsidian`
+  return kw.split(/\s+/).filter(Boolean).every((part) => hay.toLowerCase().includes(part.toLowerCase()))
+}
+
+const showSuiteBlock = computed(() => {
+  if (activeCat.value === 'suite') return true
+  if (activeCat.value !== 'all') return false
+  return matchSuiteKeyword(keyword.value)
+})
+
+/** 本地分组（全国工具之前） */
+const localGroups = computed(() => {
   const defs = categoryDefs.value.length ? categoryDefs.value : LOCAL_CAT_FALLBACK
   const groups = []
-
   const wantLocal = activeCat.value === 'all' || defs.some((d) => d.id === activeCat.value)
-  if (wantLocal && activeCat.value !== 'national') {
-    for (const c of defs) {
-      if (activeCat.value !== 'all' && activeCat.value !== c.id) continue
-      const tools = filteredLocal.value
-        .filter((t) => (t.category || 'life') === c.id)
-        .slice()
-        .sort((a, b) => (a.sort || 0) - (b.sort || 0))
-      if (!tools.length) continue
-      groups.push({
-        id: c.id,
-        label: c.label,
-        hint: c.hint || '',
-        badge: '临沂',
-        tone: 'local',
-        tools
-      })
-    }
-  }
+  if (!wantLocal || activeCat.value === 'national' || activeCat.value === 'suite') return groups
 
-  if (activeCat.value === 'all' || activeCat.value === 'national') {
-    if (filteredNational.value.length) {
-      groups.push({
-        id: 'national',
-        label: NATIONAL_CAT.label,
-        hint: NATIONAL_CAT.hint,
-        badge: '全国',
-        tone: 'national',
-        tools: filteredNational.value.slice().sort((a, b) => (a.sort || 0) - (b.sort || 0))
-      })
-    }
+  for (const c of defs) {
+    if (activeCat.value !== 'all' && activeCat.value !== c.id) continue
+    const tools = filteredLocal.value
+      .filter((t) => (t.category || 'life') === c.id)
+      .slice()
+      .sort((a, b) => (a.sort || 0) - (b.sort || 0))
+    if (!tools.length) continue
+    groups.push({
+      id: c.id,
+      label: c.label,
+      hint: c.hint || '',
+      badge: '临沂',
+      tone: 'local',
+      tools
+    })
   }
-
   return groups
 })
+
+/** 全国工具（紧随随用宝分区之后） */
+const nationalGroups = computed(() => {
+  if (activeCat.value !== 'all' && activeCat.value !== 'national') return []
+  if (!filteredNational.value.length) return []
+  return [{
+    id: 'national',
+    label: NATIONAL_CAT.label,
+    hint: NATIONAL_CAT.hint,
+    badge: '全国',
+    tone: 'national',
+    tools: filteredNational.value.slice().sort((a, b) => (a.sort || 0) - (b.sort || 0))
+  }]
+})
+
+const visibleGroups = computed(() => [...localGroups.value, ...nationalGroups.value])
 
 const totalHits = computed(() => filteredLocal.value.length + filteredNational.value.length)
 const showRecent = computed(() => !keyword.value && activeCat.value === 'all' && recent.value.length > 0)
@@ -208,6 +272,7 @@ onMounted(() => {
   void loadCatalog()
   void loadNotices()
   void loadTodayTeaser()
+  trackSuiteHome('suite_card_impression', 'matrix')
 })
 </script>
 
@@ -301,18 +366,16 @@ onMounted(() => {
       </div>
     </section>
 
-    <!-- 同类成组 -->
+    <!-- 本地分组 -->
     <section
-      v-for="group in visibleGroups"
+      v-for="group in localGroups"
       :id="`cat-${group.id}`"
       :key="group.id"
       class="home__section"
     >
       <h2 class="home__section-title">
         {{ group.label }}
-        <span class="home__badge" :class="group.tone === 'national' ? 'home__badge--nat' : ''">
-          {{ group.badge }}
-        </span>
+        <span class="home__badge">{{ group.badge }}</span>
         <small v-if="group.hint && activeCat === 'all'" class="home__section-hint">{{ group.hint }}</small>
       </h2>
       <div class="home__grid">
@@ -320,8 +383,7 @@ onMounted(() => {
           v-for="t in group.tools"
           :key="t.id"
           :to="toolTo(t)"
-          class="home__card"
-          :class="group.tone === 'national' ? 'home__card--national' : 'home__card--local'"
+          class="home__card home__card--local"
         >
           <span class="home__icon" aria-hidden="true">{{ t.icon }}</span>
           <span class="home__card-body">
@@ -333,10 +395,96 @@ onMounted(() => {
       </div>
     </section>
 
-    <p v-if="keyword && !totalHits" class="home__empty muted">没有找到相关工具</p>
-    <p v-else-if="!visibleGroups.length" class="home__empty muted">该类暂无工具</p>
+    <!-- 随用宝 · 紧挨全国工具上方；置顶截图 + IMA 同步 -->
+    <section
+      v-if="showSuiteBlock"
+      id="cat-suite"
+      class="home__section home__suite"
+    >
+      <h2 class="home__section-title">
+        {{ SUITE_BRAND }}桌面工具
+        <span class="home__badge home__badge--suite">软件</span>
+        <small class="home__section-hint">{{ SUITE_TAGLINE }}</small>
+      </h2>
+      <p class="home__suite-intro muted">{{ SUITE_INTRO }}</p>
+
+      <div class="home__suite-featured">
+        <button
+          v-for="t in suiteFeatured"
+          :key="`feat-${t.id}`"
+          type="button"
+          class="home__suite-feature"
+          @click="openSuiteHub(t.id)"
+        >
+          <span class="home__icon" aria-hidden="true">{{ t.icon }}</span>
+          <span class="home__suite-feature-body">
+            <strong>{{ suiteShortName(t.name) }}</strong>
+            <small>{{ t.blurb }}</small>
+            <em>介绍与下载</em>
+          </span>
+        </button>
+      </div>
+
+      <div class="home__suite-grid">
+        <button
+          v-for="t in suitePreview.filter((x) => !SUITE_FEATURED_IDS.includes(x.id))"
+          :key="t.id"
+          type="button"
+          class="home__suite-card"
+          @click="openSuiteHub(t.id)"
+        >
+          <span class="home__icon" aria-hidden="true">{{ t.icon }}</span>
+          <span class="home__card-body">
+            <strong>{{ suiteShortName(t.name) }}</strong>
+            <small>{{ t.blurb }}</small>
+          </span>
+        </button>
+      </div>
+      <div class="home__suite-actions">
+        <RouterLink class="home__suite-link" to="/suite">
+          软件介绍与全部工具
+        </RouterLink>
+        <button type="button" class="home__suite-dl" @click="openSuiteHub('hub_more')">
+          前往下载
+        </button>
+      </div>
+    </section>
+
+    <!-- 全国工具 -->
+    <section
+      v-for="group in nationalGroups"
+      :id="`cat-${group.id}`"
+      :key="group.id"
+      class="home__section"
+    >
+      <h2 class="home__section-title">
+        {{ group.label }}
+        <span class="home__badge home__badge--nat">{{ group.badge }}</span>
+        <small v-if="group.hint && activeCat === 'all'" class="home__section-hint">{{ group.hint }}</small>
+      </h2>
+      <div class="home__grid">
+        <RouterLink
+          v-for="t in group.tools"
+          :key="t.id"
+          :to="toolTo(t)"
+          class="home__card home__card--national"
+        >
+          <span class="home__icon" aria-hidden="true">{{ t.icon }}</span>
+          <span class="home__card-body">
+            <strong>{{ t.title }}</strong>
+            <small>{{ t.desc }}</small>
+          </span>
+          <span class="home__arrow" aria-hidden="true">›</span>
+        </RouterLink>
+      </div>
+    </section>
+
+    <p v-if="keyword && !totalHits && !showSuiteBlock" class="home__empty muted">没有找到相关工具</p>
+    <p v-else-if="!visibleGroups.length && !showSuiteBlock" class="home__empty muted">该类暂无工具</p>
 
     <footer class="home__foot">
+      <RouterLink to="/suite">随用宝下载</RouterLink>
+      <span>·</span>
       <RouterLink to="/feedback">意见反馈</RouterLink>
       <span>·</span>
       <RouterLink to="/about">关于与数据来源</RouterLink>

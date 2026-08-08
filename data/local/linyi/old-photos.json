@@ -1,0 +1,106 @@
+{
+  "city": "临沂",
+  "title": "临沂旧时光",
+  "updated": "2026-08-08",
+  "source_note": "精选镜像自临忆录已发布图集（1990 年代及以后）；完整浏览、地图挂点与投稿请回主站。",
+  "disclaimer": "影像版权与说明以临忆录图集为准；本站仅作便民精选预览，不替代主站图集。",
+  "era_scope": "1990+",
+  "hub": {
+    "brand": "临忆录 · 临沂旧时光",
+    "atlas_url": "https://www.linyilu.com/atlas",
+    "map_url": "https://www.linyilu.com/",
+    "submit_url": "https://www.linyilu.com/atlas/submit"
+  },
+  "items": [
+    {
+      "id": 25,
+      "title": "王羲之雕像",
+      "year": 1992,
+      "era": "1990s",
+      "era_label": "九十年代",
+      "blurb": "城市公共雕塑与书圣文化符号的定格。",
+      "thumb_url": "https://www.linyilu.com/directus/assets/16040fc3-b452-4c4a-a5a0-c9be238bcb5e?width=640&height=480&fit=cover&quality=75",
+      "detail_url": "https://www.linyilu.com/atlas?imageId=25"
+    },
+    {
+      "id": 9,
+      "title": "临沂县图书馆旧照",
+      "year": 1994,
+      "era": "1990s",
+      "era_label": "九十年代",
+      "blurb": "公共阅读空间的旧貌，城市文化设施变迁的一页。",
+      "thumb_url": "https://www.linyilu.com/directus/assets/9201a2d7-e5df-43df-b2fa-199d8d89271b?width=640&height=480&fit=cover&quality=75",
+      "detail_url": "https://www.linyilu.com/atlas?imageId=9"
+    },
+    {
+      "id": 55,
+      "title": "兰山区中国工商银行大厦",
+      "year": 1995,
+      "era": "1990s",
+      "era_label": "九十年代",
+      "blurb": "九十年代城区地标建筑，金融街区天际线的一段记忆。",
+      "thumb_url": "https://www.linyilu.com/directus/assets/c7164b4d-0f6c-4839-8767-f73382268a07?width=640&height=480&fit=cover&quality=75",
+      "detail_url": "https://www.linyilu.com/atlas?imageId=55"
+    },
+    {
+      "id": 60,
+      "title": "陶然居大酒店（夜景）",
+      "year": 1995,
+      "era": "1990s",
+      "era_label": "九十年代",
+      "blurb": "夜色里的酒店灯火，九十年代城市夜生活的侧面。",
+      "thumb_url": "https://www.linyilu.com/directus/assets/cc567bc3-704a-47d7-9e9c-580e196eeda3?width=640&height=480&fit=cover&quality=75",
+      "detail_url": "https://www.linyilu.com/atlas?imageId=60"
+    },
+    {
+      "id": 21,
+      "title": "九十年代商城街景",
+      "year": 1996,
+      "era": "1990s",
+      "era_label": "九十年代",
+      "blurb": "商贸街巷人流与招牌，临沂商城气质的早期定影。",
+      "thumb_url": "https://www.linyilu.com/directus/assets/37bb002f-6c2f-41b1-98e1-911712875298?width=640&height=480&fit=cover&quality=75",
+      "detail_url": "https://www.linyilu.com/atlas?imageId=21"
+    },
+    {
+      "id": 1,
+      "title": "临沂七中校门",
+      "year": 2004,
+      "era": "2000s",
+      "era_label": "二千年代",
+      "blurb": "新世纪校园门脸，千禧年后教育设施更新的一景。",
+      "thumb_url": "https://www.linyilu.com/directus/assets/aa98622e-04df-486c-a15d-88f9cda082ea?width=640&height=480&fit=cover&quality=75",
+      "detail_url": "https://www.linyilu.com/atlas?imageId=1"
+    },
+    {
+      "id": 2,
+      "title": "临沂七中艺术楼",
+      "year": 2006,
+      "era": "2000s",
+      "era_label": "二千年代",
+      "blurb": "校园艺术楼外立面，2000 年代校舍建设的样本。",
+      "thumb_url": "https://www.linyilu.com/directus/assets/5e77fece-a470-417a-a041-058e8e52c2e2?width=640&height=480&fit=cover&quality=75",
+      "detail_url": "https://www.linyilu.com/atlas?imageId=2"
+    },
+    {
+      "id": 29,
+      "title": "鲁南商业大厦",
+      "year": 2010,
+      "era": "2010s",
+      "era_label": "一零年代",
+      "blurb": "一度醒目的商业高楼，城市商圈变迁里的坐标。",
+      "thumb_url": "https://www.linyilu.com/directus/assets/ebce7dcf-b67b-4f13-83e5-fa05e8fe1bf7?width=640&height=480&fit=cover&quality=75",
+      "detail_url": "https://www.linyilu.com/atlas?imageId=29"
+    },
+    {
+      "id": 90,
+      "title": "临沂沂河三河口夜景",
+      "year": 2015,
+      "era": "2010s",
+      "era_label": "一零年代",
+      "blurb": "三河口夜色与河岸灯带，近年水岸景观的一页。",
+      "thumb_url": "https://www.linyilu.com/directus/assets/37fd497f-6cea-4cee-a863-d95b769a789c?width=640&height=480&fit=cover&quality=75",
+      "detail_url": "https://www.linyilu.com/atlas?imageId=90"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -46,8 +47,9 @@ onMounted(() => {
           </span>
           <code>{{ d.code }}</code>
           <code>{{ d.zip }}</code>
-        </li>
-      </ul>
+                    <CorrectBtn :item="item.name" :hint="`${item.code || ''} ${item.zip || ''}`" />
+          </li>
+        </ul>
 
       <p class="foot muted">{{ data?.disclaimer }}</p>
     </div>

@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const year = ref('2026')
@@ -63,6 +64,7 @@ watch(year, () => {
     <SubNav title="节假日" />
     <div class="page__body">
       <p class="lead">国务院放假安排简化版 · 2025-2026 · 含调休上班日</p>
+      <p><CorrectBtn item="节假日" :compact="false" /></p>
 
       <div class="form form--bank">
         <label>

@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -88,6 +89,9 @@ onMounted(() => {
           </div>
           <p v-if="item.phone_masked" class="muted">电话：开放表脱敏</p>
           <p v-else-if="item.phone" class="muted">电话：{{ item.phone }}</p>
+          <p style="margin:6px 0 0">
+            <CorrectBtn :item="item.name" :hint="`${item.address || ''} ${item.phone || ''}`" />
+          </p>
         </li>
       </ul>
 

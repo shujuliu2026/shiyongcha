@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -99,7 +100,14 @@ function sourceLabel (item) {
     public_listing: '公开信息',
     open_data: '开放网',
     previous: '缓存',
-    hedong_gov: '河东区公开'
+    hedong_gov: '河东区公开',
+    lanshan_gov_2026: '兰山区人社',
+    luozhuang_gov_2026: '罗庄区人社',
+    linyi_gov_2025: '市人社目录',
+    linyi_gov_catalog: '市人社目录',
+    mengyin_gov_2025: '蒙阴县人社',
+    sdmc_official: '校方官网',
+    safety_assoc: '安监名录'
   }
   return map[item.address_source] || item.address_source || ''
 }
@@ -115,7 +123,7 @@ onMounted(() => {
     <div class="page__body">
       <p class="lead">
         职业培训机构目录 · {{ data?.count || '—' }} 家（源表 202508040915）。
-        已补全地址 {{ enrichedCount }} · 电话 {{ phoneCount }}。
+        已补全地址 {{ enrichedCount }} · 已填电话 {{ phoneCount }}。
       </p>
 
       <div class="form form--bank">
@@ -154,7 +162,6 @@ onMounted(() => {
             <span v-if="item.address">{{ item.address }}</span>
             <span v-else class="muted">地址脱敏 · 线索：{{ item.address_hint || item.address_raw || '—' }}</span>
             <span v-if="item.phone">电话 {{ item.phone }}</span>
-            <span v-else class="muted">电话脱敏</span>
             <span v-if="item.note" class="muted">{{ item.note }}</span>
             <span v-if="item.address_source" class="muted">地址来源 {{ sourceLabel(item) }}</span>
             <div class="row">
@@ -184,6 +191,7 @@ onMounted(() => {
                 拨号
               </button>
               <a class="btn btn--ghost" :href="mapsLink(item)" target="_blank" rel="noopener">地图</a>
+              <CorrectBtn :item="item.name" :hint="`${item.district || ''} ${item.address || item.phone || ''}`" />
             </div>
           </div>
         </li>

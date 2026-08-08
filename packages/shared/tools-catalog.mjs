@@ -25,6 +25,7 @@ export const DEFAULT_TOOLS = [
   { id: 'training-orgs', path: '/training-orgs', group: 'local', category: 'social', icon: '🎓', title: '职业培训机构', desc: '机构目录 · 联网补全地址', keys: '职业培训 技能 补贴 学校', sort: 11, enabled: true },
   { id: 'edu-bases', path: '/edu-bases', group: 'local', category: 'social', icon: '📚', title: '继续教育基地', desc: '专业技术人员继续教育基地名单', keys: '继续教育 专技 基地', sort: 12, enabled: true },
   { id: 'guides', path: '/guides', group: 'local', category: 'social', icon: '📋', title: '办事指南速查', desc: '户口、社保、公积金等入口说明', keys: '户口 社保 公积金 办事', sort: 70, enabled: true },
+  { id: 'hukou', path: '/hukou', group: 'local', category: 'social', icon: '🪪', title: '户籍电话', desc: '户籍窗口 · 自助点 · 可搜索', keys: '户籍 户口 派出所 身份证 自助 户政 电话', sort: 14, enabled: true },
 
   // —— 出行交通 ——
   { id: 'transit', path: '/transit', group: 'local', category: 'transit', icon: '🚉', title: '本地出行提示', desc: '机场、高铁、客运站电话与地址', keys: '机场 高铁 客运 出行', sort: 90, enabled: true },
@@ -40,6 +41,7 @@ export const DEFAULT_TOOLS = [
 
   // —— 生活便民 ——
   { id: 'history-today', path: '/history-today', group: 'local', category: 'life', icon: '📜', title: '历史上的今天', desc: '临沂地方史 · 按公历日速览', keys: '历史 今天 沂蒙 银雀山 地方志', sort: 10, enabled: true },
+  { id: 'old-photos', path: '/old-photos', group: 'local', category: 'life', icon: '📷', title: '临沂旧时光', desc: '精选老照片 · 完整图集回临忆录', keys: '老照片 旧时光 图集 临忆录 银雀山 火车站', sort: 12, enabled: true },
   { id: 'hospitals', path: '/hospitals', group: 'local', category: 'life', icon: '🏥', title: '医院速查', desc: '市县重点医院电话与地址', keys: '看病 急诊 就医', sort: 40, enabled: true },
   { id: 'hotlines', path: '/hotlines', group: 'local', category: 'life', icon: '📞', title: '便民电话', desc: '报警、急救、政务、供水供电', keys: '电话 110 120 12345', sort: 50, enabled: true },
   { id: 'districts', path: '/districts', group: 'local', category: 'life', icon: '📮', title: '区划与邮编', desc: '临沂区县代码 + 邮政编码', keys: '邮编 区县', sort: 60, enabled: true },

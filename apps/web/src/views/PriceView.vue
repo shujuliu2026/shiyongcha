@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const tab = ref('egg')
@@ -91,6 +92,7 @@ onMounted(async () => {
       <p class="lead">
         商务部「商务预报」批发监测：鸡蛋、肉类、蔬菜日度价（元/公斤）。默认筛山东市场。
       </p>
+      <p><CorrectBtn item="菜蛋肉价" hint="商务预报批发价" :compact="false" /></p>
 
       <div class="env-tabs" role="tablist">
         <button

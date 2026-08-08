@@ -9,9 +9,11 @@ const rootDir = path.resolve(__dirname, '../..')
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, rootDir, '')
   const apiTarget = (env.VITE_API_PROXY_TARGET || 'http://127.0.0.1:5180').trim()
+  // 生产挂到临忆录：VITE_BASE=/tools/shiyongcha/ · 本地开发保持 /
+  const base = (env.VITE_BASE || '/').trim() || '/'
 
   return {
-    base: '/',
+    base,
     plugins: [vue()],
     define: {
       __APP_BUILD__: JSON.stringify(

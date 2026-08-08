@@ -1,7 +1,8 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
+import { RouterLink, useRoute, useRouter } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const route = useRoute()
@@ -126,6 +127,12 @@ watch(
     <SubNav title="历史上的今天" :share-desc="shareDesc" />
     <div class="page__body">
       <p class="lead">临沂地方史速览 · 与便民电话 / 办事指南同属本地服务</p>
+      <p class="muted" style="margin:-6px 0 14px;font-size:13px">
+        想看老照片？
+        <RouterLink to="/old-photos">临沂旧时光精选</RouterLink>
+        ·
+        <a href="https://www.linyilu.com/atlas" target="_blank" rel="noopener noreferrer">临忆录完整图集</a>
+      </p>
 
       <div class="hist-nav">
         <button type="button" class="btn btn--ghost" :disabled="loading" @click="prevDay">前一天</button>
@@ -153,6 +160,7 @@ watch(
             {{ yearLabel(it.year) }}
             <template v-if="it.tags?.length"> · {{ it.tags.join(' / ') }}</template>
           </p>
+          <p style="margin:8px 0 0"><CorrectBtn :item="it.title" :hint="it.summary || ''" /></p>
         </article>
 
         <template v-if="!hasItems">
@@ -164,6 +172,7 @@ watch(
               {{ yearLabel(it.year) }}
               <template v-if="it.tags?.length"> · {{ it.tags.join(' / ') }}</template>
             </p>
+          <p style="margin:8px 0 0"><CorrectBtn :item="it.title" :hint="it.summary || ''" /></p>
           </article>
         </template>
 

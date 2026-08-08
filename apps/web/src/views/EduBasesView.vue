@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
+import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -71,6 +72,7 @@ onMounted(() => {
           </div>
           <div class="batch-list__hit">
             <button type="button" class="btn btn--ghost" @click="copyText(item.name)">复制名称</button>
+            <CorrectBtn :item="item.name" :hint="item.address || ''" />
           </div>
         </li>
       </ul>
