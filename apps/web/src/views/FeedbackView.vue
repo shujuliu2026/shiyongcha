@@ -21,7 +21,8 @@ async function submit () {
       type: type.value,
       content: content.value,
       contact: contact.value,
-      page: String(route.query.from || route.fullPath || '/feedback')
+      page: String(route.query.from || route.fullPath || '/feedback'),
+      item: String(route.query.item || '').trim()
     })
     ok.value = true
     content.value = ''
@@ -55,7 +56,7 @@ onMounted(() => {
   <div class="page">
     <SubNav title="意见反馈" :correct="false" />
     <div class="page__body">
-      <p class="lead">功能建议、内容纠错或合作联系 · 运营后台可查收处理</p>
+      <p class="lead">功能建议、内容纠错或合作联系 · 提交后进入实用查运营台与临忆录工具统计「反馈收件箱」</p>
 
       <div class="form form--stack">
         <label>

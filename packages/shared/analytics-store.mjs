@@ -17,7 +17,15 @@ const ALLOWED_HOOKS = new Set([
   'search.query',
   'page.share',
   'suite_card_impression',
-  'suite_card_click'
+  'suite_card_click',
+  'btn.click',
+  'link.click',
+  'dial',
+  'copy',
+  'filter',
+  'submit',
+  'nav.click',
+  'feedback'
 ])
 const MAX_BATCH = 40
 const RATE_WINDOW_MS = 60_000

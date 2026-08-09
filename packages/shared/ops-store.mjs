@@ -352,6 +352,7 @@ export function submitFeedback (raw, meta = {}) {
     content,
     contact: String(f.contact || '').trim().slice(0, 80),
     page: String(f.page || '').trim().slice(0, 120),
+    item: String(f.item || '').trim().slice(0, 120),
     status: 'new',
     created_at: nowIso(),
     ip: String(meta.ip || '').slice(0, 64)

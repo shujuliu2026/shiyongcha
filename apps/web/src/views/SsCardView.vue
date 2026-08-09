@@ -141,6 +141,8 @@ onMounted(() => {
                 v-if="item.address"
                 type="button"
                 class="btn btn--ghost"
+                data-track="copy"
+                data-track-label="复制地址"
                 @click="copyText(item.address)"
               >
                 复制地址
@@ -149,6 +151,8 @@ onMounted(() => {
                 v-if="item.phone"
                 type="button"
                 class="btn btn--ghost"
+                data-track="copy"
+                data-track-label="复制电话"
                 @click="copyText(item.phone)"
               >
                 复制电话

@@ -30,7 +30,8 @@ export async function fetchNotices () {
 }
 
 /**
- * @param {{ type: string, content: string, contact?: string, page?: string }} payload
+ * 提交纠错/意见：本地运营台落盘；OPS 收件箱由 API 服务端双写 analytics
+ * @param {{ type: string, content: string, contact?: string, page?: string, item?: string }} payload
  */
 export async function postFeedback (payload) {
   const res = await fetch(apiUrl('/api/v1/feedback'), {

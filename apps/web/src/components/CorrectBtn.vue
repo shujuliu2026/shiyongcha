@@ -31,6 +31,8 @@ const to = computed(() => {
     class="correct-btn"
     :class="{ 'correct-btn--compact': compact }"
     :to="to"
+    data-track="nav"
+    data-track-label="纠错"
     title="内容纠错"
   >
     纠错

@@ -62,6 +62,7 @@ import {
   updateFeedbackStatus,
   opsOverview
 } from '../../../packages/shared/ops-store.mjs'
+import { emitFeedbackToHub } from '../../../packages/shared/hub-feedback.mjs'
 import { getHistoryToday } from '../../../packages/shared/history-today.mjs'
 import {
   enrichItemsWithGeo,
@@ -583,7 +584,23 @@ async function handleRequest (url, req, body = {}) {
 
   if (method === 'POST' && pathname === '/api/v1/feedback') {
     try {
-      const result = submitFeedback(body, { ip: clientIp(req) })
+      const ip = clientIp(req)
+      const result = submitFeedback(body, { ip })
+      // 本地落盘成功后双写 OPS 统一收件箱（失败不影响用户成功）
+      try {
+        const f = body && typeof body === 'object' ? body : {}
+        emitFeedbackToHub({
+          id: result.id,
+          type: String(f.type || 'suggest'),
+          content: String(f.content || f.body || ''),
+          contact: String(f.contact || ''),
+          page: String(f.page || ''),
+          item: String(f.item || ''),
+          ip
+        })
+      } catch {
+        /* ignore hub */
+      }
       return { status: 200, headers: { 'Cache-Control': 'no-store' }, body: result }
     } catch (e) {
       return {
