@@ -95,29 +95,7 @@ npm run dev:preview   # API + 静态预览（省内存，推荐）
 | `/id-region` | `GET /api/v1/national/id-region?q=` | 身份证归属 / 校验位 |
 | `/oil` | `GET /api/v1/national/oil` | 山东油价参考（`data/national/oil-prices.json`） |
 | `/history-today` | `GET /api/v1/local/history-today` | 临沂历史上的今天 |
-| `/old-photos` | `GET /api/v1/local/old-photos` | 临沂旧时光精选（镜像缩略图 + 外链临忆录图集） |
-| `/hukou` | `GET /api/v1/local/hukou-windows` | 户籍窗口咨询电话 + 身份证自助受理点（可搜索） |
 | `/admin` | `GET /api/v1/admin/analytics/*` | 访问统计后台（需 `ADMIN_TOKEN`） |
-
-## 内容纠错
-
-- 各查询页顶栏「纠错」→ `/feedback?type=content&from=…`
-- 列表/结果旁「纠错」带上条目名与原文摘要，便于运营后台处理
-- 组件：`CorrectBtn.vue` · 反馈页预填 `item` / `hint`
-
-## 临沂旧时光（A+B）
-
-- 页面：`/old-photos` · 首页「生活便民」入口
-- 站内：`data/local/linyi/old-photos.json` 精选 8 张（缩略图走临忆录 assets）
-- 外链：完整图集 / 地图旧时光 / 投稿 → `linyilu.com`（不嵌主站图集能力）
-- 「历史上的今天」页顶有交叉入口
-
-## 随用宝桌面系列
-
-- 页面：`/suite`（软件介绍 · Free/Pro 摘要 · 下载）
-- 首页分区：「随用宝桌面工具」+ 分类标签「桌面软件」
-- 下载统一打开官方 hub：`https://www.linyilu.com/tools/beicheng/`（不直链 exe、不嵌桌面能力）
-- 埋点：`suite_card_impression` / `suite_card_click`
 
 ## 页面分享
 

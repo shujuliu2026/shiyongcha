@@ -13,11 +13,7 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { createRequire } from 'module'
-import {
-  geocodeAmap,
-  amapConfigured,
-  pickTelMatchingMask
-} from '../packages/shared/linyi-bank-geo.mjs'
+import { geocodeAmap, amapConfigured } from '../packages/shared/linyi-bank-geo.mjs'
 
 const require = createRequire(import.meta.url)
 const XLSX = require('xlsx')
@@ -111,17 +107,14 @@ if (WANT_PHONES && amapConfigured()) {
     if (it.phone && !isMasked(it.phone)) continue
     try {
       await new Promise((r) => setTimeout(r, 320))
-      const q = clean(it.name_matched || `${it.bank || ''} ${it.name}`)
+      const q = `${it.bank || ''} ${it.name}`.trim()
       const p = await geocodeAmap(q, '临沂', { extensions: 'all' })
-      const tel = pickTelMatchingMask(p.tels?.length ? p.tels : p.tel, it.phone_raw)
-      if (tel) {
-        it.phone = tel
+      if (p.tel) {
+        it.phone = p.tel
         it.phone_source = 'amap'
         it.phone_masked = false
         ok++
-        console.log('TEL', it.name, tel, last4Hint(it.phone_raw))
-      } else {
-        console.warn('TEL_EMPTY', it.name, p.name_matched || '')
+        console.log('TEL', it.name, p.tel)
       }
       if (p.address && (!it.address || it.address_source !== 'public_listing')) {
         // 保留已有地址；仅缺省时更新
@@ -140,11 +133,6 @@ if (WANT_PHONES && amapConfigured()) {
     }
   }
   console.log(`电话补全 ${ok} 条`)
-}
-
-function last4Hint (phoneRaw) {
-  const d = String(phoneRaw || '').replace(/\D/g, '')
-  return d.length >= 4 ? `mask*${d.slice(-4)}` : ''
 }
 
 fs.mkdirSync(BACKUP_DIR, { recursive: true })

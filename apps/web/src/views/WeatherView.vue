@@ -90,10 +90,10 @@ const todayForecast = computed(() => weekForecast.value?.days?.find((d) => d.is_
 
 const todayChip = computed(() => {
   const d = todayForecast.value
-  if (!d) return weekLoading.value ? '天气预报加载中…' : ''
+  if (!d) return weekLoading.value ? '预报加载中…' : ''
   const hi = d.temp_max != null ? `${d.temp_max}°` : '—'
   const lo = d.temp_min != null ? `${d.temp_min}°` : '—'
-  return `今日 ${d.label} ${lo}~${hi}`
+  return `${d.label || '天气'} ${lo}~${hi}`
 })
 
 function applyQueryTfid () {
@@ -335,36 +335,30 @@ watch([watchLat, watchLng, alertKm], () => syncWatchLayers())
 
 <template>
   <div
-    class="app"
+    class="app app--weather"
     :class="{
       'app--alert': hasAlert,
       'app--watch': hasWatch && !hasAlert,
       [`app--tier-${topAlertTier}`]: hasWatch
     }"
   >
-    <header class="top">
+    <header class="top top--weather">
       <div class="top__brand">
         <RouterLink class="top__back" to="/">←</RouterLink>
         <img src="/icon.svg" alt="" width="28" height="28">
-        <div>
+        <div class="top__titles">
           <h1>台风天气</h1>
           <p>路径 · 雨层 · 预报 · 告警</p>
         </div>
       </div>
       <div class="top__actions">
-        <RouterLink
-          class="btn btn--ghost"
-          :to="{ path: '/feedback', query: { type: 'content', from: '/weather', item: '台风天气' } }"
-        >
-          纠错
-        </RouterLink>
         <button type="button" class="btn btn--ghost" @click="onShare">分享</button>
         <RouterLink
           v-if="fromLocal"
           class="btn btn--ghost"
           to="/local-weather"
         >
-          临沂天气
+          临沂
         </RouterLink>
         <button type="button" class="btn btn--ghost" :disabled="loading" @click="applyWatch">
           {{ loading ? '…' : '刷新' }}
@@ -393,7 +387,7 @@ watch([watchLat, watchLng, alertKm], () => syncWatchLayers())
           class="hud__chip hud__chip--wx"
           to="/local-weather"
         >
-          {{ todayChip }} · 临沂预报 ›
+          临沂 {{ todayChip }} ›
         </RouterLink>
         <div class="hud__toggles">
           <label><input v-model="showRain" type="checkbox"> 雨层</label>

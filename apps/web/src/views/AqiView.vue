@@ -1,7 +1,6 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
 import SubNav from '../components/SubNav.vue'
-import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const CITIES = [
@@ -139,7 +138,6 @@ onMounted(() => {
         山东国控站小时空气质量（公共数据开放网）。
         <template v-if="meta && !meta.configured">请配置 <code>SD_OPEN_CLIENT_*</code>。</template>
       </p>
-      <p><CorrectBtn item="空气质量" :compact="false" /></p>
 
       <div class="env-chips" aria-label="地市">
         <button

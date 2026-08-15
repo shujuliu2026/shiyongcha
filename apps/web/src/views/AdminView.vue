@@ -52,7 +52,6 @@ const tabs = [
   { id: 'overview', label: '概况' },
   { id: 'catalog', label: '工具' },
   { id: 'sources', label: '数据源' },
-  { id: 'refresh', label: '更新历史' },
   { id: 'notices', label: '公告' },
   { id: 'feedback', label: '反馈' },
   { id: 'traffic', label: '访问' }
@@ -64,28 +63,10 @@ const sourceLegend = ref({})
 const sourceMode = ref('')
 const sourceQ = ref('')
 
-const refreshRuns = ref([])
-const refreshSchedule = ref(null)
-const refreshSourceFilter = ref('')
-const refreshDetail = ref(null)
-
 const modeLabel = {
   realtime: '实时',
   scheduled: '自动',
   manual: '手动'
-}
-
-const statusLabel = {
-  ok: '有变更',
-  noop: '无变更',
-  error: '失败',
-  started: '进行中'
-}
-
-const opLabel = {
-  add: '新增',
-  remove: '删除',
-  change: '修改'
 }
 
 function headers () {
@@ -169,68 +150,6 @@ async function touchSource (id) {
   } finally {
     loading.value = false
   }
-}
-
-async function loadRefreshHistory () {
-  if (!sources.value.length) {
-    try { await loadSources() } catch { /* ignore */ }
-  }
-  const qs = new URLSearchParams()
-  qs.set('limit', '60')
-  if (refreshSourceFilter.value) qs.set('source_id', refreshSourceFilter.value)
-  const body = await adminFetch(`/api/v1/admin/refresh-history?${qs}`)
-  refreshRuns.value = body.items || []
-  refreshSchedule.value = body.schedule || null
-}
-
-async function openRefreshDetail (run) {
-  loading.value = true
-  error.value = ''
-  try {
-    const qs = run.source_id ? `?source_id=${encodeURIComponent(run.source_id)}` : ''
-    refreshDetail.value = await adminFetch(
-      `/api/v1/admin/refresh-history/${encodeURIComponent(run.run_id)}${qs}`
-    )
-  } catch (e) {
-    error.value = e?.message || String(e)
-  } finally {
-    loading.value = false
-  }
-}
-
-function closeRefreshDetail () {
-  refreshDetail.value = null
-}
-
-async function goRefreshDetail (run) {
-  tab.value = 'refresh'
-  await openRefreshDetail(run)
-}
-
-async function syncGenerate () {
-  if (!window.confirm('对全部本地 JSON 数据源同步生成快照与留痕？内容未改记为「无变更」。')) return
-  loading.value = true
-  error.value = ''
-  okMsg.value = ''
-  try {
-    const body = await adminFetch(`/api/v1/admin/refresh-sync?range=${range.value}`, {
-      method: 'POST',
-      body: JSON.stringify({ note: '同步生成基线' })
-    })
-    if (body.overview) overview.value = body.overview
-    okMsg.value = `同步生成完成：${body.ok || 0}/${body.count || 0} 个数据源`
-    if (tab.value === 'refresh') await loadRefreshHistory()
-    else await loadAll()
-  } catch (e) {
-    error.value = e?.message || String(e)
-  } finally {
-    loading.value = false
-  }
-}
-
-function summaryText (s) {
-  if (!s) return '—'
-  return `+${s.added || 0} / -${s.removed || 0} / ~${s.changed || 0}（原 ${s.before_count ?? '—'} → ${s.after_count ?? '—'}）`
 }
 
 function logout () {
@@ -401,28 +320,18 @@ watch([sourceMode, sourceQ], () => {
   }
 })
 
-watch(refreshSourceFilter, () => {
-  if (unlocked.value && tab.value === 'refresh') {
-    void loadRefreshHistory().catch((e) => { error.value = e?.message || String(e) })
-  }
-})
-
 watch(tab, (id) => {
-  if (!unlocked.value) return
-  if (id === 'sources') {
+  if (unlocked.value && id === 'sources') {
     void loadSources().catch((e) => { error.value = e?.message || String(e) })
-  }
-  if (id === 'refresh') {
-    void loadRefreshHistory().catch((e) => { error.value = e?.message || String(e) })
   }
 })
 </script>
 
 <template>
   <div class="page">
-    <SubNav title="运营后台" :share="false" :correct="false" :back-to="unlocked ? undefined : '/'" />
+    <SubNav title="运营后台" :share="false" :back-to="unlocked ? undefined : '/'" />
     <div class="page__body">
-      <p class="lead">展示开关 · 数据源 · 更新留痕 · 运营统计 · 公告 · 用户反馈</p>
+      <p class="lead">展示开关 · 数据源 · 运营统计 · 公告 · 用户反馈</p>
 
       <div v-if="!unlocked" class="form form--stack">
         <label>
@@ -461,13 +370,6 @@ watch(tab, (id) => {
             <option value="30d">近 30 天</option>
           </select>
           <button type="button" class="btn btn--ghost" :disabled="loading" @click="loadAll">刷新</button>
-          <button
-            v-if="tab === 'overview' || tab === 'refresh'"
-            type="button"
-            class="btn"
-            :disabled="loading"
-            @click="syncGenerate"
-          >同步生成</button>
           <button type="button" class="btn btn--ghost" @click="logout">退出</button>
         </div>
         <p v-if="error" class="err">{{ error }}</p>
@@ -475,73 +377,32 @@ watch(tab, (id) => {
 
         <!-- 概况 -->
         <template v-if="tab === 'overview' && overview">
-          <h2 class="page__h2">数据统计</h2>
           <div class="admin-stats">
             <div class="admin-stat">
-              <span>浏览量 PV</span>
               <strong>{{ overview.traffic.pv }}</strong>
+              <span>PV</span>
             </div>
             <div class="admin-stat">
-              <span>访客 UV</span>
               <strong>{{ overview.traffic.uv }}</strong>
+              <span>UV</span>
             </div>
             <div class="admin-stat">
-              <span>均 PV/日</span>
-              <strong>{{ avgPv }}</strong>
-            </div>
-            <div class="admin-stat">
-              <span>上架工具</span>
-              <strong>{{ overview.catalog.enabled }}/{{ overview.catalog.total }}</strong>
-            </div>
-            <div class="admin-stat">
-              <span>生效公告</span>
-              <strong>{{ overview.notices.active }}</strong>
-            </div>
-            <div class="admin-stat">
-              <span>待处理反馈</span>
               <strong>{{ overview.feedback.new }}</strong>
+              <span>待处理反馈</span>
             </div>
             <div class="admin-stat">
-              <span>数据更新次数</span>
-              <strong>{{ overview.refresh?.runs ?? 0 }}</strong>
+              <strong>{{ overview.notices.active }}</strong>
+              <span>生效公告</span>
             </div>
             <div class="admin-stat">
-              <span>更新有变更</span>
-              <strong>{{ overview.refresh?.ok ?? 0 }}</strong>
+              <strong>{{ overview.catalog.enabled }}/{{ overview.catalog.total }}</strong>
+              <span>上架工具</span>
             </div>
             <div class="admin-stat">
-              <span>更新无变更</span>
-              <strong>{{ overview.refresh?.noop ?? 0 }}</strong>
-            </div>
-            <div class="admin-stat">
-              <span>更新失败</span>
-              <strong>{{ overview.refresh?.error ?? 0 }}</strong>
-            </div>
-            <div class="admin-stat">
-              <span>条目新增 / 删除 / 修改</span>
-              <strong>{{ overview.refresh?.added ?? 0 }} / {{ overview.refresh?.removed ?? 0 }} / {{ overview.refresh?.changed ?? 0 }}</strong>
-            </div>
-            <div class="admin-stat">
-              <span>定时任务到期</span>
-              <strong>{{ overview.refresh?.due ?? 0 }}/{{ overview.refresh?.schedule_total ?? 0 }}</strong>
+              <strong>{{ avgPv }}</strong>
+              <span>均 PV/日</span>
             </div>
           </div>
-
-          <h2 class="page__h2">最近数据更新</h2>
-          <ul class="admin-list admin-list--compact">
-            <li v-for="r in overview.refresh?.recent || []" :key="r.run_id">
-              <div>
-                <strong>{{ r.source_title || r.source_id }}</strong>
-                <small class="muted">
-                  {{ statusLabel[r.status] || r.status }}
-                  · {{ r.finished_at ? fmtTime(r.finished_at) : fmtTime(r.started_at) }}
-                  · {{ summaryText(r.summary) }}
-                </small>
-              </div>
-              <button type="button" class="btn btn--ghost" @click="goRefreshDetail(r)">明细</button>
-            </li>
-            <li v-if="!(overview.refresh?.recent || []).length" class="muted">暂无更新留痕</li>
-          </ul>
 
           <h2 class="page__h2">热门页面</h2>
           <ul class="admin-list">
@@ -635,11 +496,8 @@ watch(tab, (id) => {
                 <p v-if="s.file_path" class="admin-fb__body muted">本地 {{ s.file_path }}</p>
                 <p v-if="s.note" class="admin-fb__body muted">{{ s.note }}</p>
                 <p v-if="s.needs_manual" class="admin-fb__body">
-                  上次手动标记：{{ s.last_manual_at ? fmtTime(s.last_manual_at) : '尚未标记' }}
+                  上次手动更新：{{ s.last_manual_at ? fmtTime(s.last_manual_at) : '尚未标记' }}
                   <template v-if="s.last_manual_note"> · {{ s.last_manual_note }}</template>
-                </p>
-                <p v-if="s.last_refresh_at" class="admin-fb__body">
-                  最近留痕更新：{{ fmtTime(s.last_refresh_at) }}
                 </p>
               </div>
               <div class="admin-catalog__ops">
@@ -661,93 +519,6 @@ watch(tab, (id) => {
             </li>
             <li v-if="!sources.length" class="muted">无匹配数据源</li>
           </ul>
-        </template>
-
-        <!-- 更新历史 -->
-        <template v-if="tab === 'refresh'">
-          <p class="muted" style="font-size:12px;margin:0 0 10px">
-            {{ refreshSchedule?.convention || '更新时自动保留原文快照，并记录增删改明细。' }}
-          </p>
-          <div v-if="refreshSchedule?.items?.length" class="admin-toolbar" style="margin-bottom:10px;flex-wrap:wrap">
-            <small class="muted" style="width:100%">定时约定（到期由 npm run refresh:due 执行）</small>
-            <code
-              v-for="job in refreshSchedule.items"
-              :key="job.source_id"
-              class="src-badge"
-              :class="job.due ? 'src-badge--man' : 'src-badge--auto'"
-              style="font-size:11px"
-              :title="job.note"
-            >
-              {{ job.source_title || job.source_id }} · {{ job.interval_days }}天
-              {{ job.due ? '·到期' : '' }}
-            </code>
-          </div>
-          <div class="admin-toolbar">
-            <select v-model="refreshSourceFilter" aria-label="数据源筛选">
-              <option value="">全部数据源</option>
-              <option
-                v-for="s in sources.filter((x) => x.file_path)"
-                :key="s.id"
-                :value="s.id"
-              >{{ s.title }}</option>
-            </select>
-            <button type="button" class="btn btn--ghost" :disabled="loading" @click="loadRefreshHistory">刷新列表</button>
-          </div>
-
-          <ul v-if="!refreshDetail" class="admin-list">
-            <li v-for="r in refreshRuns" :key="r.run_id" class="admin-fb">
-              <div>
-                <strong>{{ r.source_title || r.source_id }}</strong>
-                <small class="muted">
-                  {{ statusLabel[r.status] || r.status }}
-                  · {{ r.finished_at ? fmtTime(r.finished_at) : fmtTime(r.started_at) }}
-                  · {{ r.trigger || '—' }}
-                </small>
-                <p class="admin-fb__body">{{ summaryText(r.summary) }}</p>
-                <p v-if="r.note" class="admin-fb__body muted">{{ r.note }}</p>
-              </div>
-              <div class="admin-catalog__ops">
-                <button type="button" class="btn" :disabled="loading" @click="openRefreshDetail(r)">明细</button>
-              </div>
-            </li>
-            <li v-if="!refreshRuns.length" class="muted">暂无更新记录。请用 npm run refresh:record 更新本地 JSON。</li>
-          </ul>
-
-          <div v-else class="form form--stack">
-            <button type="button" class="btn btn--ghost" @click="closeRefreshDetail">← 返回列表</button>
-            <p>
-              <strong>{{ refreshDetail.run?.source_title || refreshDetail.run?.source_id }}</strong>
-              <small class="muted"> · {{ refreshDetail.run?.run_id }}</small>
-            </p>
-            <p class="muted" style="font-size:12px;margin:0">
-              开始 {{ refreshDetail.run?.started_at ? fmtTime(refreshDetail.run.started_at) : '—' }}
-              · 结束 {{ refreshDetail.run?.finished_at ? fmtTime(refreshDetail.run.finished_at) : '—' }}
-              · {{ statusLabel[refreshDetail.run?.status] || refreshDetail.run?.status }}
-            </p>
-            <p style="margin:0">{{ summaryText(refreshDetail.summary) }}</p>
-            <p v-if="refreshDetail.snapshot_path" class="muted" style="font-size:12px;word-break:break-all;margin:0">
-              原文快照 {{ refreshDetail.snapshot_path }}
-            </p>
-            <ul class="admin-list admin-list--compact">
-              <li v-for="(c, idx) in (refreshDetail.changes || [])" :key="idx">
-                <div>
-                  <strong>{{ opLabel[c.op] || c.op }} · {{ c.key }}</strong>
-                  <small v-if="c.fields?.length" class="muted">字段 {{ c.fields.join('、') }}</small>
-                  <p v-if="c.op === 'change'" class="admin-fb__body muted" style="font-size:12px;white-space:pre-wrap">
-                    原 {{ JSON.stringify(c.before) }}
-                    → 新 {{ JSON.stringify(c.after) }}
-                  </p>
-                  <p v-else-if="c.op === 'add'" class="admin-fb__body muted" style="font-size:12px">
-                    {{ JSON.stringify(c.after) }}
-                  </p>
-                  <p v-else class="admin-fb__body muted" style="font-size:12px">
-                    {{ JSON.stringify(c.before) }}
-                  </p>
-                </div>
-              </li>
-              <li v-if="!(refreshDetail.changes || []).length" class="muted">无条目级变更（可能仅元数据变化）</li>
-            </ul>
-          </div>
         </template>
 
         <!-- 公告 -->
@@ -821,12 +592,10 @@ watch(tab, (id) => {
 
         <!-- 访问明细 -->
         <template v-if="tab === 'traffic' && summary">
-          <h2 class="page__h2">数据统计</h2>
           <div class="admin-stats">
-            <div class="admin-stat"><span>浏览量 PV</span><strong>{{ summary.pv }}</strong></div>
-            <div class="admin-stat"><span>访客 UV</span><strong>{{ summary.uv }}</strong></div>
-            <div class="admin-stat"><span>活跃路径</span><strong>{{ summary.top_paths?.length || 0 }}</strong></div>
-            <div class="admin-stat"><span>均 PV/日</span><strong>{{ avgPv }}</strong></div>
+            <div class="admin-stat"><strong>{{ summary.pv }}</strong><span>浏览量 PV</span></div>
+            <div class="admin-stat"><strong>{{ summary.uv }}</strong><span>访客 UV</span></div>
+            <div class="admin-stat"><strong>{{ summary.top_paths?.length || 0 }}</strong><span>活跃路径</span></div>
           </div>
 
           <h2 class="page__h2">设备</h2>

@@ -1,6 +1,5 @@
 <script setup>
 import SubNav from '../components/SubNav.vue'
-import CorrectBtn from '../components/CorrectBtn.vue'
 import { OFFICIAL_NAV_LINKS } from '../data/officialNav.js'
 
 function openLink (href) {
@@ -15,7 +14,6 @@ function openLink (href) {
       <p class="lead">
         常用官方 / 权威站点导航。点击在新窗口打开；本站不采集账号，也不代查结果。
       </p>
-      <p><CorrectBtn item="官方信息查询" :compact="false" /></p>
 
       <ul class="official-nav">
         <li v-for="item in OFFICIAL_NAV_LINKS" :key="item.id">

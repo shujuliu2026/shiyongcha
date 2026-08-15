@@ -1,5 +1,4 @@
 <script setup>
-import { RouterLink } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
 
 const buildStamp = typeof __APP_BUILD__ !== 'undefined' ? __APP_BUILD__ : ''
@@ -7,7 +6,7 @@ const buildStamp = typeof __APP_BUILD__ !== 'undefined' ? __APP_BUILD__ : ''
 
 <template>
   <div class="page">
-    <SubNav title="关于" :correct="false" />
+    <SubNav title="关于" />
     <div class="page__body">
       <h2 class="page__h2">实用查</h2>
       <p class="lead">
@@ -16,9 +15,9 @@ const buildStamp = typeof __APP_BUILD__ !== 'undefined' ? __APP_BUILD__ : ''
 
       <h2 class="page__h2">本地服务分类（临沂）</h2>
       <ul class="about-list">
-        <li><strong>人社社保</strong>：社保区划 · 户籍电话（窗口/自助可搜索） · 社保卡制卡网点 · 职业培训 · 办事指南</li>
+        <li><strong>人社社保</strong>：社保区划 · 社保卡制卡网点 · 职业培训 · 办事指南</li>
         <li><strong>出行交通</strong>：出行提示 · 公交 · IC卡 · 站亭 · 客运场站 · 货运场站 · 驾校</li>
-        <li><strong>生活便民</strong>：历史上的今天 · 临沂旧时光（精选老照片） · 医院 · 便民电话 · 区划邮编</li>
+        <li><strong>生活便民</strong>：历史上的今天 · 医院 · 便民电话 · 区划邮编</li>
         <li><strong>气象环境</strong>：临沂天气 · 空气质量</li>
         <li><strong>金融银行</strong>：本地银行网点</li>
       </ul>
@@ -50,12 +49,6 @@ const buildStamp = typeof __APP_BUILD__ !== 'undefined' ? __APP_BUILD__ : ''
         <li>运营后台：<code>/admin</code>（工具、数据源 API、公告、反馈、PV/UV）· 需 <code>ADMIN_TOKEN</code></li>
         <li>意见反馈：页面 <code>/feedback</code> · API <code>POST /api/v1/feedback</code></li>
       </ul>
-
-      <h2 class="page__h2">随用宝桌面系列</h2>
-      <p class="lead">
-        实用查为 H5 信息查询；同系列桌面软件（备份、同步、截图等）见
-        <RouterLink to="/suite">软件介绍与下载</RouterLink>，统一跳转官方 hub，不在本站嵌入桌面能力。
-      </p>
 
       <h2 class="page__h2">免责声明</h2>
       <p class="muted">

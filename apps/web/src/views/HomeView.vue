@@ -54,15 +54,11 @@ const LOCAL_CAT_FALLBACK = [
 const NATIONAL_CAT = { id: 'national', label: '全国工具', hint: '联行号 · 油价 · 台风' }
 const SUITE_CAT = { id: 'suite', label: '桌面软件', hint: '截图 · IMA · 备份' }
 
-/** 首页置顶：截图工具、IMA 同步插件 */
+/** 首页预览：截图 / IMA 同步优先，其余补满两行（手机两列横排，宽屏三列） */
 const SUITE_FEATURED_IDS = ['snipdesk', 'ima-sync']
 
-const suiteFeatured = SUITE_FEATURED_IDS
-  .map((id) => SUITE_TOOLS.find((t) => t.id === id))
-  .filter(Boolean)
-
 const suitePreview = [
-  ...suiteFeatured,
+  ...SUITE_FEATURED_IDS.map((id) => SUITE_TOOLS.find((t) => t.id === id)).filter(Boolean),
   ...SUITE_TOOLS.filter((t) => !SUITE_FEATURED_IDS.includes(t.id)).slice(0, 4)
 ]
 
@@ -395,7 +391,7 @@ onMounted(() => {
       </div>
     </section>
 
-    <!-- 随用宝 · 紧挨全国工具上方；置顶截图 + IMA 同步 -->
+    <!-- 随用宝 · 紧挨全国工具上方；手机两列横排 -->
     <section
       v-if="showSuiteBlock"
       id="cat-suite"
@@ -408,29 +404,13 @@ onMounted(() => {
       </h2>
       <p class="home__suite-intro muted">{{ SUITE_INTRO }}</p>
 
-      <div class="home__suite-featured">
+      <div class="home__suite-grid" aria-label="随用宝桌面工具">
         <button
-          v-for="t in suiteFeatured"
-          :key="`feat-${t.id}`"
-          type="button"
-          class="home__suite-feature"
-          @click="openSuiteHub(t.id)"
-        >
-          <span class="home__icon" aria-hidden="true">{{ t.icon }}</span>
-          <span class="home__suite-feature-body">
-            <strong>{{ suiteShortName(t.name) }}</strong>
-            <small>{{ t.blurb }}</small>
-            <em>介绍与下载</em>
-          </span>
-        </button>
-      </div>
-
-      <div class="home__suite-grid">
-        <button
-          v-for="t in suitePreview.filter((x) => !SUITE_FEATURED_IDS.includes(x.id))"
+          v-for="t in suitePreview"
           :key="t.id"
           type="button"
           class="home__suite-card"
+          :class="{ 'home__suite-card--pin': SUITE_FEATURED_IDS.includes(t.id) }"
           @click="openSuiteHub(t.id)"
         >
           <span class="home__icon" aria-hidden="true">{{ t.icon }}</span>

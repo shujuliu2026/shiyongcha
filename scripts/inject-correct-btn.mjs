@@ -142,9 +142,13 @@ patchFile('HistoryTodayView.vue', (src) => {
 
 patchFile('OldPhotosView.vue', (src) => {
   if (src.includes('<CorrectBtn')) return src
+  // 纠错须在 v-for 条目内；勿插在 </a> 后同级（it 未定义会白屏）
   return src.replace(
-    /(<em>在临忆录查看 →<\/em>\r?\n\s*<\/div>\r?\n\s*<\/a>)/,
-    `$1\n        <div style="margin-top:8px"><CorrectBtn :item="it.title" :hint="String(it.year || it.era_label || '')" /></div>`
+    /(class="oldphotos__card"[\s\S]*?<em>在临忆录查看 →<\/em>\r?\n\s*<\/div>\r?\n\s*<\/a>)/,
+    (m) => {
+      if (m.includes('oldphotos__item')) return m
+      return m // 手动维护 OldPhotosView：article.oldphotos__item + CorrectBtn
+    }
   )
 })
 

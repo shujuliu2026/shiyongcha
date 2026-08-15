@@ -21,8 +21,7 @@ async function submit () {
       type: type.value,
       content: content.value,
       contact: contact.value,
-      page: String(route.query.from || route.fullPath || '/feedback'),
-      item: String(route.query.item || '').trim()
+      page: String(route.query.from || route.fullPath || '/feedback')
     })
     ok.value = true
     content.value = ''
@@ -36,27 +35,14 @@ async function submit () {
 onMounted(() => {
   const t = String(route.query.type || '')
   if (['bug', 'suggest', 'content', 'other'].includes(t)) type.value = t
-
-  const item = String(route.query.item || '').trim()
-  const hint = String(route.query.hint || '').trim()
-  const from = String(route.query.from || '').trim()
-  if (item || hint) {
-    type.value = 'content'
-    const lines = []
-    if (from) lines.push(`【页面】${from}`)
-    if (item) lines.push(`【条目】${item}`)
-    if (hint) lines.push(`【原文】${hint}`)
-    lines.push('【纠错说明】')
-    content.value = lines.join('\n')
-  }
 })
 </script>
 
 <template>
   <div class="page">
-    <SubNav title="意见反馈" :correct="false" />
+    <SubNav title="意见反馈" />
     <div class="page__body">
-      <p class="lead">功能建议、内容纠错或合作联系 · 提交后进入实用查运营台与临忆录工具统计「反馈收件箱」</p>
+      <p class="lead">功能建议、内容纠错或合作联系 · 运营后台可查收处理</p>
 
       <div class="form form--stack">
         <label>

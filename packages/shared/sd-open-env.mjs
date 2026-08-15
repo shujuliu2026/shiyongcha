@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 山东公共数据开放网 · 空气质量 / 降水量（令牌签名代理）
  * 凭证：SD_OPEN_CLIENT_ID / SD_OPEN_CLIENT_SECRET（勿提交）
  *

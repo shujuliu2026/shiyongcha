@@ -1,7 +1,6 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
-import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -77,7 +76,6 @@ onMounted(() => {
             >
               {{ item.tel }}
             </button>
-            <CorrectBtn :item="item.name" :hint="`${item.address || ''} ${item.tel || ''}`" />
           </li>
         </ul>
       </section>

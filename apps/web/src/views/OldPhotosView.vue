@@ -118,30 +118,39 @@ onMounted(() => {
       <p v-if="error" class="err">{{ error }}</p>
 
       <div v-if="!loading && !error" class="oldphotos__grid">
-        <a
+        <article
           v-for="it in items"
           :key="it.id"
-          class="oldphotos__card"
-          :href="it.detail_url"
-          target="_blank"
-          rel="noopener noreferrer"
+          class="oldphotos__item"
         >
-          <div class="oldphotos__thumb">
-            <img
-              :src="it.thumb_url"
-              :alt="it.title"
-              loading="lazy"
-              decoding="async"
-            >
-            <span v-if="yearText(it)" class="oldphotos__year">{{ yearText(it) }}</span>
+          <a
+            class="oldphotos__card"
+            :href="it.detail_url"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="oldphotos__thumb">
+              <img
+                :src="it.thumb_url"
+                :alt="it.title"
+                loading="lazy"
+                decoding="async"
+              >
+              <span v-if="yearText(it)" class="oldphotos__year">{{ yearText(it) }}</span>
+            </div>
+            <div class="oldphotos__meta">
+              <strong>{{ it.title }}</strong>
+              <small>{{ it.blurb }}</small>
+              <em>在临忆录查看 →</em>
+            </div>
+          </a>
+          <div class="oldphotos__item-actions">
+            <CorrectBtn
+              :item="it.title"
+              :hint="String(it.year || it.era_label || '')"
+            />
           </div>
-          <div class="oldphotos__meta">
-            <strong>{{ it.title }}</strong>
-            <small>{{ it.blurb }}</small>
-            <em>在临忆录查看 →</em>
-          </div>
-        </a>
-        <div style="margin-top:8px"><CorrectBtn :item="it.title" :hint="String(it.year || it.era_label || '')" /></div>
+        </article>
       </div>
 
       <p v-if="!loading && !error && !items.length" class="muted">该年代暂无精选</p>

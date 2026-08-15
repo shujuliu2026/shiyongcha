@@ -135,7 +135,7 @@ onMounted(() => {
         户籍窗口咨询预约 + 身份证自助受理点 · 共 {{ data?.count || '—' }} 处 · 可搜索
       </p>
 
-      <div class="form form--bank">
+      <div class="form form--hukou">
         <label class="hukou-search">
           搜索
           <input
@@ -185,12 +185,12 @@ onMounted(() => {
             :key="`${it.id}-${idx}`"
           >
             <div class="hotline-list__main">
-              <strong>
+              <div class="hukou-title">
                 <span class="hukou-tag" :class="it.kind === 'self' ? 'hukou-tag--self' : ''">
                   {{ kindLabel(it.kind) }}
                 </span>
-                {{ it.name }}
-              </strong>
+                <strong>{{ it.name }}</strong>
+              </div>
               <span v-if="it.services" class="muted">{{ it.services }}</span>
               <span v-if="it.address" class="muted">{{ it.address }}</span>
               <span v-if="it.note" class="muted">备注：{{ it.note }}</span>

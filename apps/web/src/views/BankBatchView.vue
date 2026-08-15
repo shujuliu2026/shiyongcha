@@ -2,7 +2,6 @@
 import { computed, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import SubNav from '../components/SubNav.vue'
-import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 import { useLicense } from '../composables/useLicense.js'
 
@@ -140,7 +139,6 @@ onMounted(async () => {
         深挖 15 万支行编码：粘贴多行（联行号 /「银行+关键字」），一次出结果并导出 CSV。
         <RouterLink to="/bank">单条查询</RouterLink>
       </p>
-      <p><CorrectBtn item="批量联行号" :compact="false" /></p>
 
       <!-- 微信客服解锁 -->
       <section class="lic-card">

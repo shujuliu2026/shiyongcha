@@ -95,8 +95,10 @@ onMounted(() => {
                 ].filter(Boolean).join(' / ')
               }}
             </span>
-            <button type="button" class="btn btn--ghost" @click="copyText(item.code)">复制编码</button>
-            <CorrectBtn :item="`${item.name} ${item.code}`" :hint="item.agency || ''" />
+            <div class="row">
+              <button type="button" class="btn btn--ghost" @click="copyText(item.code)">复制编码</button>
+              <CorrectBtn :item="`${item.name} ${item.code}`" :hint="item.agency || ''" />
+            </div>
           </div>
         </li>
       </ul>

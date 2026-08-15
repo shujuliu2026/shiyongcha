@@ -1,7 +1,6 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
-import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -51,7 +50,6 @@ onMounted(() => {
             <button type="button" class="btn btn--ghost hotline-list__tel" @click="dial(item.tel)">
               {{ item.tel }}
             </button>
-            <CorrectBtn :item="item.name" :hint="`${item.note || ''} ${item.tel || ''}`" />
           </li>
         </ul>
       </section>

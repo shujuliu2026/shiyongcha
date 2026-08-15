@@ -20,16 +20,16 @@ const routes = [
     meta: toolMeta('历史上的今天', '📜')
   },
   {
-    path: '/old-photos',
-    name: 'old-photos',
-    component: () => import('../views/OldPhotosView.vue'),
-    meta: toolMeta('临沂旧时光', '📷')
-  },
-  {
     path: '/admin',
     name: 'admin',
     component: () => import('../views/AdminView.vue'),
     meta: { title: '运营后台', noTrack: true }
+  },
+  {
+    path: '/suite',
+    name: 'suite',
+    component: () => import('../views/SuiteView.vue'),
+    meta: toolMeta('随用宝系列', '📦')
   },
   {
     path: '/feedback',
@@ -72,6 +72,12 @@ const routes = [
     name: 'hukou',
     component: () => import('../views/HukouView.vue'),
     meta: toolMeta('户籍电话', '🪪')
+  },
+  {
+    path: '/old-photos',
+    name: 'old-photos',
+    component: () => import('../views/OldPhotosView.vue'),
+    meta: toolMeta('临沂旧时光', '📷')
   },
   {
     path: '/official-nav',
@@ -229,12 +235,6 @@ const routes = [
     name: 'earthquake',
     component: () => import('../views/EarthquakeView.vue'),
     meta: toolMeta('地震通报', '🏔️')
-  },
-  {
-    path: '/suite',
-    name: 'suite',
-    component: () => import('../views/SuiteView.vue'),
-    meta: toolMeta('随用宝系列', '📦')
   },
   {
     path: '/about',

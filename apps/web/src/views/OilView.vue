@@ -1,7 +1,6 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
-import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(true)
@@ -45,7 +44,6 @@ onMounted(() => {
     <SubNav title="油价速查" />
     <div class="page__body">
       <p class="lead">山东（含临沂）成品油最高零售价参考 · 可估箱油费用</p>
-      <p><CorrectBtn item="油价速查" hint="山东成品油参考价" :compact="false" /></p>
       <p v-if="loading" class="muted">加载中…</p>
       <p v-if="error" class="err">{{ error }}</p>
 

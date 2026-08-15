@@ -1,7 +1,6 @@
 <script setup>
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import SubNav from '../components/SubNav.vue'
-import CorrectBtn from '../components/CorrectBtn.vue'
 import { apiUrl } from '../utils/api.js'
 
 const loading = ref(false)
@@ -76,7 +75,6 @@ onUnmounted(() => {
         中国地震台网正式测定列表（第三方聚合）· 自动计算距
         {{ watchLabel }} 距离 · 约 2 分钟刷新
       </p>
-      <p><CorrectBtn item="地震通报" :compact="false" /></p>
 
       <div
         v-if="eew?.active && eew.eew"
