@@ -20,4 +20,8 @@ tool-api.txt
 tmp-cnaps-out.txt
 # 本地原始采集表/资料（勿入库）
 原始资料/
-
+.cursor/
+out/
+.tmp/
+.toolchain/
+*.exe
